@@ -1,0 +1,118 @@
+# Project info
+site_name: IBM Engineering Lifecycle Management Level 3 Demonstration Guide
+site_description: IBM Engineering Lifecycle Management Sales Enablement Level 3 Demonstration Guide
+site_author: Andrew R. Jones (andrewj@us.ibm.com)
+copyright: Copyright &copy; 2022 IBM
+
+# Repository
+repo_name: IBM/SalesEnablement-ELMhealthcare-L3
+#repo_url: https://github.com/IBM/SalesEnablement-ELMhealthcare-L3
+#edit_uri: edit/master/docs
+docs_dir: docs
+
+
+nav:
+  - Introduction: 'index.md'
+  - Overview:
+    - 'Introduction': 'Part 1/01 Introduction.md'
+    - 'Project overview': 'Part 1/02 ProjectOverview.md'
+  - Act 1:
+    - 'Design Planning': 'Part 2/01 DesignPlanning.md'
+    - 'Dashboarding': 'Part 2/02 Dashboarding.md'
+  - Act 2:
+    - 'Product Requirements': 'Part 3/01 ProductRequirements.md'
+  - Act 3:
+    - 'Requirements Quality Assistant': 'Part 4/01 RQA.md'
+    - 'Reviews': 'Part 4/02 Reviews.md'
+    - 'Risk Management': 'Part 4/03 RiskManagement.md'
+  - Act 4:
+    - 'Design Verification': 'Part 5/01 DesignVerification.md'
+    - 'Design Validation': 'Part 5/02 DesignValidation.md'
+  - Act 5:
+    - 'Engineering Insights for Metrics': 'Part 6/01 EngineeringInsights.md'
+  - 'Next steps': 'NextSteps.md'
+
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - content.code.annotate
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+
+plugins:
+    - mkdocs-video
+    - macros
+    - search
+
+markdown_extensions:
+  - sane_lists
+  - pymdownx.details
+  - admonition
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.keys
+  - attr_list
+
+extra:
+  generator: false
+  learningplan:
+    name: "IBM Engineering Lifecycle Management Level 3"
+    url: "https://yourlearning.ibm.com/activity/PLAN-TBD"
+  offering:
+    name: "IBM Engineering Lifecycle Management"
+  guide:
+    name: "IBM Engineering Lifecycle Management - Level 3 Demonstration Guide"
+    url: "https://ibm.github.io/SalesEnablement-ELMhealthcare-L3/"
+  tz_environment:
+    name: "ELM for Medical Demo Crate"
+    environmentURL: "https://techzone.ibm.com/collection/elm-for-medical-demo-crate-hqe18dt4c"
+    reservationURL: "https://techzone.ibm.com/my/reservations"
+    windowsServerAdmin: "Administrator"
+    windowsServerAdminPW: ""
+    elmUserID: "Susan"
+
+
+# #  account: "2435442 - ITZ - Satellite"
+#   account: "2305900 - ITZ - ADHOC03"
+#   powerVS:
+#     serviceInstanceName: "PowerVS-L3-service"
+#     serviceInstanceRG: "PowerVS-L3"
+#     serviceInstanceLocation: "Dallas"
+#     placementGroup1: "AffinityGroup"
+#     placementGroup2: "AntiAffinityGroup"
+#     sshKey: "PowerVS-key"
+#   aixServer1:
+#     name: "AIX-vm-1"
+#     privateIP: "192.168.130.110"
+#     publicIP: "52.117.41.110"
+#     additonalVolumeName: "aix-volume-1"
+#   aixServer2:
+#     name: "AIX-vm-2"
+#     privateIP: "192.168.130.106"
+#     publicIP: "52.117.41.106"
+#     additonalVolumeName: "aix-volume-2"
+#   rhServer1:
+#     name: "RH-vm-1"
+#     privateIP: "192.168.130.107"
+#     publicIP: "52.117.41.107"
+#     additonalVolumeName: "rh-volume-1-39907-1"
+#     additonalVolumeName2: "rh-volume-1-39907-2"
+#   rhServer2:
+#     name: "RH-vm-2"
+#     privateIP: "192.168.130.108"
+#     publicIP: "52.117.41.108"
+#     additonalVolumeName: "rh-volume-2"
