@@ -17,7 +17,7 @@
     
     
       
-        <title>02 DemoPreparation - IBM Engineering Lifecycle Management Level 3 Demonstration Guide</title>
+        <title>Demonstration Environment Preparation - IBM Engineering Lifecycle Management Level 3 Demonstration Guide</title>
       
     
     
@@ -67,6 +67,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#prepare-the-browser-based-web-client" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -96,7 +101,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              02 DemoPreparation
+              Demonstration Environment Preparation
             
           </span>
         </div>
@@ -217,12 +222,14 @@
 
   
   
+    
+  
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" checked>
       
       
       
@@ -246,7 +253,7 @@
   
     <li class="md-nav__item">
       <a href="../01%20Introduction/" class="md-nav__link">
-        Introduction
+        The Demonstration
       </a>
     </li>
   
@@ -257,11 +264,48 @@
               
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../../Part 1/02 ProjectOverview.md" class="md-nav__link">
-        Project overview
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Demonstration Environment Preparation
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Demonstration Environment Preparation
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#prepare-the-browser-based-web-client" class="md-nav__link">
+    Prepare the browser-based web client
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -321,7 +365,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Part%202/02%20Dashboarding/" class="md-nav__link">
+      <a href="../../Part 2/02 Dash-boarding.md" class="md-nav__link">
         Dashboarding
       </a>
     </li>
@@ -602,6 +646,21 @@
   
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#prepare-the-browser-based-web-client" class="md-nav__link">
+    Prepare the browser-based web client
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -614,9 +673,25 @@
                 
 
 
-  <h1>02 DemoPreparation</h1>
+  <h1>Demonstration Environment Preparation</h1>
 
-
+<p>The following steps must be performed before delivering the demonstration. These steps should be performed several minutes prior to starting an actual client demonstration as the software services used take a few minutes to start and enter a ready state.</p>
+<h2 id="prepare-the-browser-based-web-client">Prepare the browser-based web client</h2>
+<ol>
+<li>Open a browser window/tab using the URL found in the IBM Technology Zone email with the subject line "Your environment is ready".</li>
+</ol>
+<p><img alt="" src="../_attachments/TZURL.png" /></p>
+<ol start="2">
+<li>Click the <strong>play</strong> button to start the demonstration virtual machine (VM).</li>
+</ol>
+<p><img alt="" src="../_attachments/TZVM.png" /></p>
+<p>Wait until the VM changes from <strong>Busy</strong> to <strong>Running</strong> before proceeding.</p>
+<ol start="3">
+<li>Click on the <strong>computer screen icon</strong> to open the VM.</li>
+</ol>
+<p><img alt="" src="../_attachments/TZVMReady.png" /></p>
+<p>4.</p>
+<p>Log into Windows as Administrator (the password is il0vedem0s). The Jazz Team Servers are set to auto-start when Windows starts up, but they will take a few minutes before they are ready.</p>
 
 
 
@@ -630,6 +705,42 @@
       </main>
       
         <footer class="md-footer">
+  
+    
+    <nav class="md-footer__inner md-grid" aria-label="Footer" >
+      
+        
+        <a href="../01%20Introduction/" class="md-footer__link md-footer__link--prev" aria-label="Previous: The Demonstration" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              The Demonstration
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../../Part%202/01%20DesignPlanning/" class="md-footer__link md-footer__link--next" aria-label="Next: Design Planning" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Design Planning
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
