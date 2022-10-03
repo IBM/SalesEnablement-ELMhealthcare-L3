@@ -373,6 +373,20 @@
 
             
           
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../02%20ConfigAndChangeMgmt/" class="md-nav__link">
+        Product Requirements
+      </a>
+    </li>
+  
+
+            
+          
         </ul>
       </nav>
     </li>
@@ -612,7 +626,94 @@
 
   <h1>Product Requirements</h1>
 
-
+<p>In Act 2, the topic of <strong>Project Requirements</strong> is explored as well as <strong>Configuration</strong> and <strong>Change Management</strong> of <strong>Requirements</strong>.</p>
+<div class="admonition quote">
+<p class="admonition-title">Sample narration</p>
+<p>Now lets look at Product Requirements. Lets return to our dashboard and take a look at the requirement Artifacts for the infusion pump. Here we can see that we have Modules – or documents of requirements organized at various levels, but as you’ll see in a few minutes, the requirements in those documents are all connected.</p>
+<p>Lets open the Product Requirements document and take a closer look. These requirements reflect the end user needs, of course there are other documents reflecting regulatory requirements, system requirements, software requirements and so on.</p>
+<p>Here we have a rich editing environment including pictures, rich text, tables and so on. The document has hierarchy – for example if we collapse the document we can see it has major sections; an introduction, a general description of the product and then more detailed requirements. If we expand the specific requirements section, we can see those requirements are organized into functional, performance, operational and so on.</p>
+<p>Another important facet of good requirements management is granularity. Every sketch, requirement and heading in this document is an independent, atomic artifact which means that it can be directly referenced. As you will see later, traceability is between atomic artifacts rather than documents.</p>
+<p>It also means that multiple users can all edit this same document at the same time and It facilitates re-use at the granular level - an artifact can be added to multiple documents so no more copy and paste and the overhead that comes with it.</p>
+<p>Artifacts have type – for example this document has Headings, Information Items and Product Requirements. Product Requirements have a Priority and a Status whilst the other types do not. A strong typing system like this reduces typographical errors and improves the consistency and reportability of the data.</p>
+<p>Note that here we’ve applied a view to quickly switch from the document style we saw previously to more of a spreadsheet style. Any of the artifact attributes may be shown as columns and views can also filter the data – for example this view shows only Product Requirements, along with their priority and status. This allows the user to quickly and easily focus on what’s important at the time.</p>
+<p>Notice at the top of the page here is a notification that if we want to make any changes to this document then we have to do that as part of a change set. This project has been placed under change control. This allows the team to manage the impact of changes as well as ensuring that changes are only made with the appropriate approvals and that those changes are properly documented.</p>
+<p>Any changes that are made are automatically tracked and maintained for an audit trail. We can view the history of a single requirement – or in this case the entire document. This Audit History shows us every change that was made. Who made it, when it happened, the exact nature of the change and the change set in which it was made.</p>
+<p>Now lets look at traceability which is mandated in ISO 13485</p>
+<p>Traceability:
+Traditionally, traceability is maintained in separate documents such as spreadsheets – a manual process, prone to error, very costly to maintain and outdated as soon as the author clicks “save”. In the ELM platform traceability is added directly to the artifacts themselves – right here in the web browser.</p>
+<p>This view shows us not only the product requirements for the Infusion Pump but also the system requirements further downstream that satisfy them. For example – this product requirement – 4968 is satisfied by this system requirement 4812.</p>
+<p>If we hover our mouse over a linked requirement – like 4812, we can see another common capability across the platform – Rich Hover.  Whenever we have a link to another engineering artefact we can see key information about it without actually following the link. That might be a linked requirement as in this case but it might also be a requirements engineer looking at a linked design – or a test engineer looking at a requirement they are testing against. It’s a huge time saver.</p>
+<p>We can also easily see Gap Analysis – which of these requirements has no traceability downstream – for example here requirement 5023 has no system level coverage. Of course that kind of information is also easily exposed onto dashboards – as we’ll see later.</p>
+<p>Here we can see Link Validity. Whenever two artifacts are linked – if one of those artifacts changes then the connection between them becomes suspect. Here for example the link between 4968 and 4812 is suspect because one of those requirements got changed. Now an analysis is required to confirm that the link is still valid.</p>
+<p>The ELM Platform automatically highlights when this happens so making that assessment is much easier and of course this is another common feature so that also applies for the linked models, test cases and so on.</p>
+</div>
+<ol>
+<li>Click the Chrome bookmark <strong>Project Dashboards</strong> and select the <strong>Infusion Pump</strong> bookmark.</li>
+</ol>
+<p><img alt="" src="../_attachments/ReturnToDashboard.png" /></p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Do not try to click Project Dashboard in the menu bar as that will open the CCM project dashboard and not the RM dashboard.</p>
+</div>
+<ol start="2">
+<li>Click the <strong>Artifacts</strong> tab in the main header bar.</li>
+</ol>
+<p><img alt="" src="../_attachments/HeaderBar-Artifacts.png" /></p>
+<details class="info">
+<summary>Birds Eye View</summary>
+<p><img alt="" src="../_attachments/HeaderBar-BEV.png" /></p>
+</details>
+<ol start="3">
+<li>Click on each folder in turn to show the hierarchy of requirements documents (Modules).</li>
+</ol>
+<p><img alt="" src="../_attachments/Artifacts.png" /></p>
+<p>Take note of the various <strong>Artifact Types</strong> of the documents, such as the <strong>04 Hazard and RiskAnalysis</strong> artifact types shown below.</p>
+<p><img alt="" src="../_attachments/ArtifactTypes.png" /></p>
+<ol start="4">
+<li>Click the <strong>Product Requirements</strong> folder, and then click <strong>Infusion Pump Product Requirements</strong>.</li>
+</ol>
+<p><img alt="" src="_attachments/Artifacts-ProductRequirements.png" /></p>
+<ol start="5">
+<li>Notice the graphics, rich text, tables, and hierarchy of the artifact.</li>
+</ol>
+<p><img alt="" src="../_attachments/Artifacts-ProductRequirements-HighLevel.png" /></p>
+<ol start="6">
+<li>Refine the view. In the view's header bar, click the menu button and click <strong>Show Full Hierarchy</strong> and then <strong>Show 1 Level</strong>.</li>
+</ol>
+<p><img alt="" src="../_attachments/Artifacts-ProductRequirements-1level.png" /></p>
+<ol start="7">
+<li>Click the <img alt="" src="../_attachments/ExpandIcon.png" /> icon next to the <strong>3 Specific Requirements</strong> content item.</li>
+</ol>
+<p><img alt="" src="../_attachments/Artifacts-ProductRequirements-1levelView.png" /></p>
+<p>Note the various categories of requirements defined.</p>
+<ol start="8">
+<li>Click the <img alt="" src="../_attachments/ExpandIcon.png" /> icon next to the <strong>3.1 Functional Requirements</strong> content item.</li>
+</ol>
+<p><img alt="" src="../_attachments/Artifacts-ProductRequirements-FunctionalRequirements.png" /></p>
+<ol start="9">
+<li>Click checkbox next to the first functional requirement: <strong>This device shall use a valve...</strong>.</li>
+</ol>
+<p><img alt="" src="../_attachments/Artifacts-ProductRequirements-FunctionalRequirements-1stItem.png" /></p>
+<p>Notice that each <strong>object</strong> in the document is an independent, atomic artifact.  This enables multiple engineers to author and edit the document at the same time. When a requirement is being edited, it is automatically locked preventing others from editing it, but other objects can be edited by others. It also facilitates reuse as any of these artifacts can be used in multiple documents without having to copy and paste content.</p>
+<ol start="10">
+<li>Click the <strong>1. Artifact Attributes</strong> link in the <strong>Views</strong> panel.</li>
+</ol>
+<p><img alt="" src="../_attachments/Artifacts-ViewsMenu.png" /></p>
+<details class="info">
+<summary>Birds eye view</summary>
+<p><img alt="" src="../_attachments/Artifacts-ViewsMenu-BEV.png" /></p>
+</details>
+<ol start="11">
+<li>Notice that each artifact can be of a different type, and have different attributes based upon the type.</li>
+</ol>
+<p><img alt="" src="../_attachments/Artifacts-ArtifactTypes.png" /></p>
+<p>A strong <strong>typing</strong> system reduces typographical erros and improves the consistency and reportability of the data.</p>
+<ol start="12">
+<li>Click the <strong>2. Product Requirements</strong> link in the <strong>Views</strong> panel.</li>
+</ol>
+<p><img alt="" src="../_attachments/Artifacts-ViewsMenu-2.png" /></p>
+<p>Notice the <strong>views</strong> can also filter the displayed document data.  In this case filtering out <strong>Headings</strong> and showing only <strong>Product Requirements</strong>.</p>
+<p>Next, explore the configuration and change management capabilities in ELM.</p>
 
 
 
@@ -647,13 +748,13 @@
       
       
         
-        <a href="../../Part%204/01%20RQA/" class="md-footer__link md-footer__link--next" aria-label="Next: Requirements Quality Assistant" rel="next">
+        <a href="../02%20ConfigAndChangeMgmt/" class="md-footer__link md-footer__link--next" aria-label="Next: Product Requirements" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              Requirements Quality Assistant
+              Product Requirements
             </div>
           </div>
           <div class="md-footer__button md-icon">

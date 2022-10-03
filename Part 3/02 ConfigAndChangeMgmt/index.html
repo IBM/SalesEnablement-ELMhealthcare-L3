@@ -17,7 +17,7 @@
     
     
       
-        <title>Design Validation - IBM Engineering Lifecycle Management Level 3 Demonstration Guide</title>
+        <title>Product Requirements - IBM Engineering Lifecycle Management Level 3 Demonstration Guide</title>
       
     
     
@@ -96,7 +96,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Design Validation
+              Product Requirements
             
           </span>
         </div>
@@ -327,12 +327,14 @@
 
   
   
+    
+  
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" checked>
       
       
       
@@ -355,7 +357,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Part%203/01%20ProductRequirements/" class="md-nav__link">
+      <a href="../01%20ProductRequirements/" class="md-nav__link">
         Product Requirements
       </a>
     </li>
@@ -367,11 +369,19 @@
               
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../../Part%203/02%20ConfigAndChangeMgmt/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         Product Requirements
       </a>
+      
     </li>
   
 
@@ -465,14 +475,12 @@
 
   
   
-    
-  
   
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" type="checkbox" id="__nav_6" checked>
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" type="checkbox" id="__nav_6" >
       
       
       
@@ -495,7 +503,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../01%20DesignVerification/" class="md-nav__link">
+      <a href="../../Part%205/01%20DesignVerification/" class="md-nav__link">
         Design Verification
       </a>
     </li>
@@ -507,19 +515,11 @@
               
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../Part%205/02%20DesignValidation/" class="md-nav__link">
         Design Validation
       </a>
-      
     </li>
   
 
@@ -624,9 +624,59 @@
                 
 
 
-  <h1>Design Validation</h1>
+  <h1>Product Requirements</h1>
 
-
+<p>Notice the banner at the top of the <strong>Artifacts</strong>  tab.</p>
+<p><img alt="" src="../_attachments/ChangeSetMessage.png" /></p>
+<p>The message informs users that the module is under change management. Later in the demonstration script a new change set will be created. For now, learn about the audit and traceability capabilities of ELM.</p>
+<ol>
+<li>Click the <strong>Open History</strong> menu item under the hamburger menu <img alt="" src="../_attachments/hamburgerIcon.png" /> icon.</li>
+</ol>
+<p><img alt="" src="../_attachments/OpenHistory.png" /></p>
+<details class="info">
+<summary>Birds eye view</summary>
+<p><img alt="" src="../_attachments/OpenHistory-BEV.png" /></p>
+</details>
+<ol start="2">
+<li>Click the <strong>Audit History</strong> tab.</li>
+</ol>
+<p><img alt="" src="../_attachments/AuditHistoryTab.png" /></p>
+<ol start="3">
+<li>Click the <strong>Expand All</strong> link.</li>
+</ol>
+<p><img alt="" src="../_attachments/ExpandAll.png" /></p>
+<ol start="4">
+<li>Notice the full audit trail.</li>
+</ol>
+<p>From this view, auditors can view who changed what, when the change was made, and in which <strong>change set</strong>.</p>
+<p><img alt="" src="../_attachments/AuditHistoryExpanded.png" /></p>
+<ol start="5">
+<li>Click the <strong>Close History</strong> button.</li>
+</ol>
+<p><img alt="" src="../_attachments/CloseHistory.png" /></p>
+<ol start="6">
+<li>Click the <strong>3. Satisfied By</strong> link in the <strong>Views</strong> panel.</li>
+</ol>
+<p><img alt="" src="../_attachments/Artifacts-ViewsMenu-3.png" /></p>
+<ol start="7">
+<li>Notice the columns can show <strong>traceability</strong>.</li>
+</ol>
+<p><img alt="" src="../_attachments/Artifacts-traceability.png" /></p>
+<p>Here, <strong>traceability</strong> is seen in the <strong>Satisfied By</strong> column. Rows with data in the <strong>Satisfied By</strong> column provide links to the downstream system requirements that satisfy these higher-level requirements. Notice that several rows have no information in the <strong>Satisfied By</strong> column. These empty fields illustrate <strong>gaps</strong> in the requirements providing a <strong>gap analysis</strong> traceability view.</p>
+<ol start="8">
+<li>Hover the mouse over the <strong>4968</strong> link in the <strong>ID</strong> column (don't click the link).</li>
+</ol>
+<p><img alt="" src="../_attachments/Artifacts-HoverID.png" /></p>
+<p>Notice the additional details about the requirement that are visible by simply hovering over the item in the table.</p>
+<ol start="9">
+<li>Click the first <img alt="" src="../_attachments/questionIcon.png" /> icon in the <strong>Satisfied By</strong> columns.</li>
+</ol>
+<p><img alt="" src="../_attachments/Artifacts-questionIcon.png" /></p>
+<p>Notice the options available to set the <strong>link validity</strong> for the requirement.</p>
+<p><img alt="" src="../_attachments/Artifacts-linkValidityOptions.png" /></p>
+<p>Traditionally, traceability is maintained in separate documents such as spreadsheets – a manual process, prone to error, very costly to maintain, and usually outdated as soon as the author clicks “save”. Here traceability is added, maintained, and tracked directly in the IBM solution and can easily be reported on.</p>
+<p>To learn more about <strong>link validity</strong> go <a href="https://www.ibm.com/docs/en/elm/7.0.3?topic=configurations-link-validity-in-elm" target="_blank">here</a>.</p>
+<p>In Act 3, learn about ELM's design input capabilities.</p>
 
 
 
@@ -645,7 +695,7 @@
     <nav class="md-footer__inner md-grid" aria-label="Footer" >
       
         
-        <a href="../01%20DesignVerification/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Design Verification" rel="prev">
+        <a href="../01%20ProductRequirements/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Product Requirements" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
           </div>
@@ -654,20 +704,20 @@
               <span class="md-footer__direction">
                 Previous
               </span>
-              Design Verification
+              Product Requirements
             </div>
           </div>
         </a>
       
       
         
-        <a href="../../Part%206/01%20EngineeringInsights/" class="md-footer__link md-footer__link--next" aria-label="Next: Engineering Insights for Metrics" rel="next">
+        <a href="../../Part%204/01%20RQA/" class="md-footer__link md-footer__link--next" aria-label="Next: Requirements Quality Assistant" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              Engineering Insights for Metrics
+              Requirements Quality Assistant
             </div>
           </div>
           <div class="md-footer__button md-icon">
