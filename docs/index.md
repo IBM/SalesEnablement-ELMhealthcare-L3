@@ -51,7 +51,7 @@ The following styles of highlighting are utilized in images:
 To assist in navigating the browser-based user interface (UI), a **birds-eye view** of the UI is often provided. Expand these views by clicking on the **>** icon of the expandable section of documentation.
 
 ??? tip "Birds-eye view"
-    ![](_attachments/ClickActionRectangle.png)
+    ![](_attachments/BirdsEyeView.png)
 
 ![](_attachments/PathExploreHighlight.png)
 

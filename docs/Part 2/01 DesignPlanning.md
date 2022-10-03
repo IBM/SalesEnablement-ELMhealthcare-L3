@@ -66,18 +66,18 @@ Now is a good time to explore the other widgets on the **Design Planning** tab o
 ![](_attachments/Dashboard-DesignPlanning-SolutionRoadmapWidget.png)
 
 11. Notice the **Epics** defined as work items on the roadmap.
-12. Click the ![](_attachments/ExpandIcon.png) next to the **Deliver an external infusion pump** work item.
+12. Click the ![](_attachments/ExpandIcon.png) icon next to the **Deliver an external infusion pump** work item.
 
 ![](_attachments/Dashboard-DesignPlanning-SolutionRoadmap-Summary.png)
 
 13. Notice the items with the **Work Item Type** equal to **Capability**.
 
-14. Click the ![](_attachments/ExpandIcon.png) next to the **Deliver Therapy** **Capability**.
+14. Click the ![](_attachments/ExpandIcon.png) icon next to the **Deliver Therapy** **Capability**.
 
 ![](_attachments/Dashboard-DesignPlanning-SolutionRoadmap-SummaryExpanded.png)
 
 15. Notice the items with the **Work Item Type** equal to **Feature**.
-16. Click the ![](_attachments/ExpandIcon.png) next to the **Initiate drub infusion** **Feature**.
+16. Click the ![](_attachments/ExpandIcon.png) icon next to the **Initiate drub infusion** **Feature**.
 
 ![](_attachments/Dashboard-DesignPlanning-SolutionRoadmap-InitiateDrugInfusion-1.png)
 
@@ -91,7 +91,7 @@ Now is a good time to explore the other widgets on the **Design Planning** tab o
 ![](_attachments/Dashboard-DesignPlanning-SolutionRoadmap-ViewAsMenu.png)
 
 ??? tip "Birds-eye view"
-   ![](_attachments/Dashboard-DesignPlanning-SolutionRoadmap-ViewAs-BEV.png)
+    ![](_attachments/Dashboard-DesignPlanning-SolutionRoadmap-ViewAs-BEV.png)
 
 20. Notice the detailed  under **Initiate drug infusion** with **Work Item Type** of **Task** and **Story**.
 
