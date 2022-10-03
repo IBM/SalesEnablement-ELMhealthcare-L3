@@ -52,7 +52,7 @@ The **Infusion Pump** demonstration dashboard is built of many different **widge
 
 ![](_attachments/WidgetError.png)
 
-10. Click the **Mini Dashboard** icon ![](attachments/MiniDashboardIcon.png) at top left of the **Infusion Pump** dashboard.
+10. Click the **Mini Dashboard** icon ![](_attachments/MiniDashboardIcon.png) at top left of the **Infusion Pump** dashboard.
 
 ??? tip "Birds-eye view"
    ![](_attachments/Dashboard-MiniDashboard.png)
@@ -67,7 +67,7 @@ A new browser tab will open.
 
 The **Username** and **Password** fields are pre-populated with the **susanreq** ID and password. Do not change these fields.
 
-![](_attachments/LoginMiniDashboard.png)
+![](_attachments/LoginMiniDashboards.png)
 
 13. Close the web browser tab that was opened.
 
