@@ -32,7 +32,7 @@ Before jumping to part 1, please read the guidance below. Reading and understand
 
 The {{guide.name}} is organized in parts and sub-parts or chapters. Most chapters contain numbered steps, which are actions to be performed.
 
-Throughout the guide, images are used as examples of the IBM Cloud Portal and IBM Cloud Shell.
+Throughout the guide, images are used to help guide students through the demonstration.
 
 !!! warning
     The {{offering.name}} user interface changes on a regular basis. Images captured in this guide may differ from the live demonstration environment in TechZone.
@@ -58,6 +58,11 @@ To assist in navigating the browser-based user interface (UI), a **birds-eye vie
 - Copy to clipboard box: The text is copied to the clipboard. Click the copy icon (highlighted below) and then paste using the operating systems paste function, for example, entering ++ctrl++**+v**, ++cmd++**+v**, or right-click and select paste.
 
 ![](_attachments/Usage-Clipboard.png)
+
+Additionally, throughout the demonstration guide there are sample narration scripts. The short narratives can be utilized when performing client facing demonstrations.
+
+!!! quote "Sample narration"
+    In this demonstration we’ll see how an infusion pump was engineered using the IBM ELM solution, in alignment with industry standards like ISO13485 and IEC 62304 for development and ISO 14971 for risk management. We’ll break the demo up into four acts...
 
 <!-- Additionally, there are several "click-thru" demonstrations. Links to click-thru demonstrations will open in a new browser window or tab with a screen similar to the image below.
 

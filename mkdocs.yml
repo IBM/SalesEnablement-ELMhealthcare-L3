@@ -18,7 +18,6 @@ nav:
     - 'Demonstration Environment Preparation': 'Part 1/02 DemoPreparation.md'
   - Act 1:
     - 'Design Planning': 'Part 2/01 DesignPlanning.md'
-    - 'Dashboarding': 'Part 2/02 Dash-boarding.md'
   - Act 2:
     - 'Product Requirements': 'Part 3/01 ProductRequirements.md'
   - Act 3:
@@ -84,6 +83,7 @@ extra:
     windowsServerAdmin: "Administrator"
     windowsServerAdminPW: ""
     elmUserID: "Susan"
+    adminPW: "il0vedem0s"
 
 
 # #  account: "2435442 - ITZ - Satellite"
