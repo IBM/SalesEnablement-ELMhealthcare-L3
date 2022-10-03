@@ -14,11 +14,11 @@ docs_dir: docs
 nav:
   - Introduction: 'index.md'
   - Overview:
-    - 'Introduction': 'Part 1/01 Introduction.md'
-    - 'Project overview': 'Part 1/02 ProjectOverview.md'
+    - 'The Demonstration': 'Part 1/01 Introduction.md'
+    - 'Demonstration Environment Preparation': 'Part 1/02 DemoPreparation.md'
   - Act 1:
     - 'Design Planning': 'Part 2/01 DesignPlanning.md'
-    - 'Dashboarding': 'Part 2/02 Dashboarding.md'
+    - 'Dashboarding': 'Part 2/02 Dash-boarding.md'
   - Act 2:
     - 'Product Requirements': 'Part 3/01 ProductRequirements.md'
   - Act 3:
