@@ -20,6 +20,7 @@ nav:
     - 'Design Planning': 'Part 2/01 DesignPlanning.md'
   - Act 2:
     - 'Product Requirements': 'Part 3/01 ProductRequirements.md'
+    - 'Product Requirements': 'Part 3/02 ConfigAndChangeMgmt.md'
   - Act 3:
     - 'Requirements Quality Assistant': 'Part 4/01 RQA.md'
     - 'Reviews': 'Part 4/02 Reviews.md'
