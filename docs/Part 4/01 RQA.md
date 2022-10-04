@@ -160,7 +160,7 @@ In a real project all requirements would be checked and fixed before creating a 
 ![](_attachments/DiscardCurrentChangeSetButton.png)
 
 !!! important "Important"
-    Creating a change set moves the context out of the base global configuration into Susan’s personal stream. Discarding (or delivering) the change set does return to the base global configuration – one must switch back to the base ‘variant’ of the product using the favorites menu.
+    Creating a change set moves the context out of the base global configuration into a personal stream (Susan's in this environment). Discarding (or delivering) the change set does return to the base global configuration – one must switch back to the base ‘variant’ of the product using the favorites menu.
 
 26. Click the **current context button**.
 
