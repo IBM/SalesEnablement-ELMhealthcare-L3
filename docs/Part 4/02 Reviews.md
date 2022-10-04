@@ -191,3 +191,23 @@ If the **Show changes** link doesn't appear, hover the mouse over the text for t
 The platform can be configured such that changes cannot be delivered unless those changes are linked to a work item with the appropriate approvals. In this project, after the review cycle was completed and approved, a new baseline was taken and signed with an electronic signature as shown in the next steps.
 
 40. Click the **current configuration** button.
+
+![](_attachments/CurrentConfig-Signature.png)
+
+41. Click the **Infusion Pump Base Requirements Approved** local configuration.
+
+![](_attachments/CurrentConfig-SignatureSelect.png)
+
+42. Click the **Electronic Signatures** tab.
+
+![](_attachments/Baseline-ESig-Description.png)
+
+43. Click the **Show Details** link.
+
+![](_attachments/Baseline-ESig-Summary.png)
+
+44. Review the **Electronic Signatures** details and then click the **OK** button.
+
+![](_attachments/Baseline-ESig-Details.png)
+
+The Review also has electronic signatures both for the Approval and also the final state change to Approved – this only appears in the History of the Review work item. Feel free to show that before showing Risk Management below. The project dashboard also has a Reviews tab showing reports and summaries of Reviews.
