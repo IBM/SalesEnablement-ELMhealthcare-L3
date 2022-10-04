@@ -1,4 +1,4 @@
-In Act 2, the topic of **Project Requirements** is explored as well as **Configuration** and **Change Management** of **Requirements**.
+In Act 2, the topics of **Project Requirements** and **Change Management** of requirements are explored.
 
 !!! quote "Sample narration"
     Now lets look at Product Requirements. Lets return to our dashboard and take a look at the requirement Artifacts for the infusion pump. Here we can see that we have Modules – or documents of requirements organized at various levels, but as you’ll see in a few minutes, the requirements in those documents are all connected.
@@ -18,21 +18,6 @@ In Act 2, the topic of **Project Requirements** is explored as well as **Configu
     Notice at the top of the page here is a notification that if we want to make any changes to this document then we have to do that as part of a change set. This project has been placed under change control. This allows the team to manage the impact of changes as well as ensuring that changes are only made with the appropriate approvals and that those changes are properly documented.
 
     Any changes that are made are automatically tracked and maintained for an audit trail. We can view the history of a single requirement – or in this case the entire document. This Audit History shows us every change that was made. Who made it, when it happened, the exact nature of the change and the change set in which it was made.
-
-    Now lets look at traceability which is mandated in ISO 13485
-
-    Traceability:
-    Traditionally, traceability is maintained in separate documents such as spreadsheets – a manual process, prone to error, very costly to maintain and outdated as soon as the author clicks “save”. In the ELM platform traceability is added directly to the artifacts themselves – right here in the web browser.
-
-    This view shows us not only the product requirements for the Infusion Pump but also the system requirements further downstream that satisfy them. For example – this product requirement – 4968 is satisfied by this system requirement 4812.
-
-    If we hover our mouse over a linked requirement – like 4812, we can see another common capability across the platform – Rich Hover.  Whenever we have a link to another engineering artefact we can see key information about it without actually following the link. That might be a linked requirement as in this case but it might also be a requirements engineer looking at a linked design – or a test engineer looking at a requirement they are testing against. It’s a huge time saver.
-
-    We can also easily see Gap Analysis – which of these requirements has no traceability downstream – for example here requirement 5023 has no system level coverage. Of course that kind of information is also easily exposed onto dashboards – as we’ll see later.
-
-    Here we can see Link Validity. Whenever two artifacts are linked – if one of those artifacts changes then the connection between them becomes suspect. Here for example the link between 4968 and 4812 is suspect because one of those requirements got changed. Now an analysis is required to confirm that the link is still valid.
-
-    The ELM Platform automatically highlights when this happens so making that assessment is much easier and of course this is another common feature so that also applies for the linked models, test cases and so on.
 
 1. Click the Chrome bookmark **Project Dashboards** and select the **Infusion Pump** bookmark.
 
