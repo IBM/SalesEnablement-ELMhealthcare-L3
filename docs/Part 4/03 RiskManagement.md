@@ -24,3 +24,56 @@
     Back on our Project Dashboard lets now select Operational Hazard Analysis. That analysis is performed in much the same way as FMEA with the major difference being that these hazards are the result of user error rather than device failure.
 
     The ELM Platform allows for automatic generation of federated documentation. Here we have a link to an automatically generated document that combines both of those analyses into a Risk Management File.
+
+1. Click the **Project Dashboard** tab in the top header bar.
+
+![](_attachments/ProjectDashboard-2.png)
+
+2. Click the **current context** button.
+
+![](_attachments/CurrentContext-3.png)
+
+3. Click the **dropdown** button to see the recently used and favorite configurations.
+
+![](_attachments/CurrentContext-3-Pulldown.png)
+
+4. Click **Infusion Pump Base** under **Favorite Global Configurations**.
+
+![](_attachments/CurrentContext-3-IPB.png)
+
+5. Notice the **FMEA** and **Operational Hazard Analysis** tabs on the **Infusion Pump Requirements Project Dashboard**.
+
+![](_attachments/DashboardTabs.png)
+
+There are many similarities between **operational hazard analysis** and **Failure Modes and Effects (FMEA)**. Both examine functions, failure ‘modes’ (equipment failures or incorrect operations), effects and causes. The primary difference is that operational hazard analysis focuses on what could go wrong if the device is not used correctly. FMEA focuses on identification of potential hazards in the design. Additionally, a hazard analysis focuses solely on safety hazards whereas the scope of an FMEA covers safety as well as performance, quality and reliability.
+
+6. Click the **FEMA** tab.
+
+![](_attachments/DashboardTabsFEMA.png)
+
+7. Explore the **FMEA** page.
+
+![](_attachments/FEMA.png)
+
+Note that this tab is surfacing analysis reports such as traceability from **System Requirement** to **Failure Mode** to the **Safety Requirement** that mitigates it – and metrics such as how many Failure modes have mitigations versus those that do not.
+
+8. Click the **current context button**.
+
+![](_attachments/CurrentContext-FEMA.png)
+
+9. Click **Create Change Set...**.
+
+![](_attachments/CurrentContext-FEMA-CreateChangeSet.png)
+
+10. Enter **RPN** in the **Name** field and click **OK**.
+
+![](_attachments/FEMA-NewChangeSet.png)
+
+11. Double-click inside the **RPN** field of the first row of the **FEMA Table**.
+
+![](_attachments/FEMATable-RPN.png)
+
+??? info "Birds eye view"
+    ![](_attachments/FEMATable-RPN-BEV.png)
+
+12. Delete the value of **12** and click **OK**
