@@ -2,7 +2,7 @@ The video below illustrates how this Act of the ELM demonstration can be perform
 
 ![type:video](./_videos/ELM for Medical Devices Act 3-final.mp4)
 
-!!! quote "Sample narration"
+??? quote "Sample narration"
     Next, let us look at Design Input. We are starting where we left off – here in the Product Requirements document, looking at the traceability downstream to System Requirements.
 
     Now, let us follow one of those links.
