@@ -18,4 +18,21 @@ Act 4 - Design Output. Next, learn how design verification is performed to prove
 
 Act 5 - Engineering Insights for Metrics. NEED A DESCRIPTION WRITTEN FOR THIS!!!!
 
+The video below provides a sample introduction to the demonstration.
+
+![type:video](./_videos/ELM for Medical Devices Introduction-final.mp4)
+
+!!! quote "Sample narration"
+    The IBM Engineering Lifecycle Management solution or ELM, built on the Jazz platform, provides an integrated solution for systems and software engineering: requirements and risk management, models for systems design, test management and workflow management which includes task, change and configuration management. It also includes reporting and analysis across all lifecycle artifacts.
+
+    In this demonstration we’ll see how an infusion pump was engineered using the IBM ELM solution, in alignment with industry standards like ISO13485 and IEC 62304 for development and ISO 14971 for risk management. We’ll break the demo up into four acts:
+
+    Starting with Design Planning. Here we’ll get an introduction to the platform and take a look at how the development work for our Infusion Pump is planned and tracked.
+
+    Then we’ll take a look at Product Requirements where we’ll see some of the key capabilities around requirements management including traceability and audit trails.
+
+    After that we’ll move on to Design Input where we’ll see how customer requirements are traced down to system requirements, how those requirements are checked for quality and reviewed for correctness and how we create baselines with electronic signatures. We’ll also see how we can perform risk management activities.
+
+    After that we’ll move to Design Output where we’ll see Design Verification to prove coverage of the requirements by the design and Design Validation where we’ll show test coverage, test execution and defect tracking.
+
 Before proceeding to the actual demonstration, a few preparation steps must be complete first to configure the demonstration environment in IBM Technology Zone.

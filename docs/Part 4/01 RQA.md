@@ -1,4 +1,6 @@
-In Act 3, the topic of **Project Requirements** and **Change Management** of requirements is explored.
+The video below illustrates how this Act of the ELM demonstration can be performed for a client.
+
+![type:video](./_videos/ELM for Medical Devices Act 3-final.mp4)
 
 !!! quote "Sample narration"
     Next, let us look at Design Input. We are starting where we left off – here in the Product Requirements document, looking at the traceability downstream to System Requirements.
