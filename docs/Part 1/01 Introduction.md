@@ -22,7 +22,7 @@ The video below provides a sample introduction to the demonstration.
 
 ![type:video](./_videos/ELM for Medical Devices Introduction-final.mp4)
 
-!!! quote "Sample narration"
+??? quote "Sample narration"
     The IBM Engineering Lifecycle Management solution or ELM, built on the Jazz platform, provides an integrated solution for systems and software engineering: requirements and risk management, models for systems design, test management and workflow management which includes task, change and configuration management. It also includes reporting and analysis across all lifecycle artifacts.
 
     In this demonstration we’ll see how an infusion pump was engineered using the IBM ELM solution, in alignment with industry standards like ISO13485 and IEC 62304 for development and ISO 14971 for risk management. We’ll break the demo up into four acts:
