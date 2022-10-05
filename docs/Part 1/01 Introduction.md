@@ -1,8 +1,10 @@
-The {{offering.name}} solution or ELM, built on the Jazz platform, provides an integrated solution for systems and software engineering: requirements and risk management, models for systems design, test management and workflow management which includes task, change and configuration management. It also includes reporting and analysis across all lifecycle artifacts.
+The {{offering.name}} solution or ELM, built on the Jazz platform, provides an integrated solution for systems and software engineering: requirements and risk management, models for systems design, test management, and workflow management which includes task, change management, and configuration management. It also includes reporting and analysis across all lifecycle artifacts.
 
-You can learn more about the Jazz platform <a href="https://jazz.net/" target="_blank">here</a>.
+You can learn more about ELM <a href="https://www.ibm.com/products/engineering-lifecycle-management" target="_blank">here</a> and the Jazz platform <a href="https://jazz.net/" target="_blank">here</a>.
 
 In this demonstration, see how an infusion pump was engineered using the IBM ELM solution, in alignment with industry standards like <a href="https://www.iso.org/standard/59752.html" target="_blank">ISO 13485</a> and <a href="https://www.iso.org/standard/38421.html" target="_blank">IEC 62304</a> for development and <a href="https://www.iso.org/standard/72704.html" target="_blank">ISO 14971</a> for risk management.
+
+This demonstration assumes users have at least basic knowledge of {{offering.name}}. Before proceeding, it is highly encouraged that users complete the Engineering Lifecycle Management Fundamentals Level 1 learning plan. The plan is accessible to IBM employees <a href="https://yourlearning.ibm.com/activity/PLAN-105F0A636B9F" target="_blank">here</a> and Business Partners <a href="https://learn.ibm.com/course/view.php?id=11806" target="_blank">here</a>.
 
 The demonstration is divided into four acts:
 

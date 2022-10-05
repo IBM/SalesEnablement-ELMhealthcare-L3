@@ -77,6 +77,6 @@ The **Username** and **Password** fields are pre-populated with the **susanreq**
 
 ![](_attachments/CompleteDashboard.png)
 
-<!-- At this point the **Infusion Pump** dashboard should be fully loaded with out errors.  If not, wait a minute and click the browser refresh icon ![](_attachments/ChromeRefresh.png). Repeat if necessary. -->
+<!-- At this point the **Infusion Pump** dashboard should be fully loaded with out errors. If not, wait a minute and click the browser refresh icon ![](_attachments/ChromeRefresh.png). Repeat if necessary. -->
 
-In **Act 1**, begin the journey to learn how to demonstrate IBM Engineering Lifecycle Management (ELM).  Note, this is not a deep dive into IBM ELM, rather a brief overview of some of the major capabilities and benefits.
+In **Act 1**, begin the journey to learn how to demonstrate IBM Engineering Lifecycle Management (ELM). Note, this is not a deep dive into IBM ELM, rather a brief overview of some of the major capabilities and benefits.

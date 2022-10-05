@@ -67,7 +67,7 @@ Note the various categories of requirements defined.
 
 ![](_attachments/Artifacts-ProductRequirements-FunctionalRequirements-1stItem.png)
 
-Notice that each **object** in the document is an independent, atomic artifact.  This enables multiple engineers to author and edit the document at the same time. When a requirement is being edited, it is automatically locked preventing others from editing it, but other objects can be edited by others. It also facilitates reuse as any of these artifacts can be used in multiple documents without having to copy and paste content.
+Notice that each **object** in the document is an independent, atomic artifact. This enables multiple engineers to author and edit the document at the same time. When a requirement is being edited, it is automatically locked preventing others from editing it, but other objects can be edited by others. It also facilitates reuse as any of these artifacts can be used in multiple documents without having to copy and paste content.
 
 10. Click the **1. Artifact Attributes** link in the **Views** panel.
 
@@ -86,6 +86,6 @@ A strong **typing** system reduces typographical erros and improves the consiste
 
 ![](_attachments/Artifacts-ViewsMenu-2.png)
 
-Notice the **views** can also filter the displayed document data.  In this case filtering out **Headings** and showing only **Product Requirements**.
+Notice the **views** can also filter the displayed document data. In this case filtering out **Headings** and showing only **Product Requirements**.
 
 Next, explore the configuration and change management capabilities in ELM.

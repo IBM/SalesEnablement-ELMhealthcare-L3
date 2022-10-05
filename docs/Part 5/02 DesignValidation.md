@@ -2,7 +2,7 @@
 
 ![](_attachments/FMEAtab-2.png)
 
-2. Right-click on one of the **System  Requirements** and click **Open Artifact**.
+2. Right-click on one of the **System Requirements** and click **Open Artifact**.
 
 ![](_attachments/FMEAtab-2SR.png)
 

@@ -1,5 +1,5 @@
 !!! quote "Sample narration"
-    Next lets look at Design Output – starting with design verification.  Lets use the traceability view here to return to our System Requirements and then Lets apply another view to that document – one that shows us elements from our design that satisfy these system requirements. Here we also have gap analysis and link validity, this time between the requirements and the design. Rich Hover can be used to great effect here, allowing requirements engineers to see linked design artifacts such as this architecture diagram without ever having to open or navigate a model.
+    Next lets look at Design Output – starting with design verification. Lets use the traceability view here to return to our System Requirements and then Lets apply another view to that document – one that shows us elements from our design that satisfy these system requirements. Here we also have gap analysis and link validity, this time between the requirements and the design. Rich Hover can be used to great effect here, allowing requirements engineers to see linked design artifacts such as this architecture diagram without ever having to open or navigate a model.
 
     If we do want to explore further then we can click on any one of these links and navigate into that design. These are not just pictures – this is the actual model that contains not only the architecture but also the functional analysis, the behavior and so on. If we click this state machine symbol in the corner of the Pump Channel – we can see its state based behavior. Models like this may be executed to verify and validate the system requirements they are traced to, or even generate production quality source code if the model is at the software level.
 
@@ -21,7 +21,7 @@
 
 ![](_attachments/FMEA-SatisfiedByArch.png)
 
-5. Scroll down to where **5037 The  infusion pump shall support six separate pump channels.** is visible in the table.
+5. Scroll down to where **5037 The infusion pump shall support six separate pump channels.** is visible in the table.
 
 ![](_attachments/FMEA-SatisfiedByArch-5037.png)
 

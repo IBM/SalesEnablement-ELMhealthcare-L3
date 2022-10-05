@@ -93,7 +93,7 @@ Now is a good time to explore the other widgets on the **Design Planning** tab o
 ??? tip "Birds-eye view"
     ![](_attachments/Dashboard-DesignPlanning-SolutionRoadmap-ViewAs-BEV.png)
 
-20. Notice the detailed  under **Initiate drug infusion** with **Work Item Type** of **Task** and **Story**.
+20. Notice the detailed under **Initiate drug infusion** with **Work Item Type** of **Task** and **Story**.
 
 ![](_attachments/Dashboard-DesignPlanning-SolutionRoadmap-ViewDetails.png)
 

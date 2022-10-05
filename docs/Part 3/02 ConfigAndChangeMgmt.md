@@ -6,7 +6,7 @@
 
     This view shows us not only the product requirements for the Infusion Pump but also the system requirements further downstream that satisfy them. For example – this product requirement – 4968 is satisfied by this system requirement 4812.
 
-    If we hover our mouse over a linked requirement – like 4812, we can see another common capability across the platform – Rich Hover.  Whenever we have a link to another engineering artefact we can see key information about it without actually following the link. That might be a linked requirement as in this case but it might also be a requirements engineer looking at a linked design – or a test engineer looking at a requirement they are testing against. It’s a huge time saver.
+    If we hover our mouse over a linked requirement – like 4812, we can see another common capability across the platform – Rich Hover. Whenever there is a link to another engineering artifact, the key information about it is seen without actually following the link. That might be a linked requirement as in this case, but it might also be a requirements engineer looking at a linked design – or a test engineer looking at a requirement they are testing against. It’s a huge time saver.
 
     We can also easily see Gap Analysis – which of these requirements has no traceability downstream – for example here requirement 5023 has no system level coverage. Of course that kind of information is also easily exposed onto dashboards – as we’ll see later.
 
@@ -14,7 +14,7 @@
 
     The ELM Platform automatically highlights when this happens so making that assessment is much easier and of course this is another common feature so that also applies for the linked models, test cases and so on.
 
-Notice the banner at the top of the **Artifacts**  tab.
+Notice the banner at the top of the **Artifacts** tab.
 
 ![](_attachments/ChangeSetMessage.png)
 
