@@ -23,7 +23,7 @@ Note that the **470: Review Infusion Pump System Requirements** is already compl
 
 ![](_attachments/Req470-WorkItemApprovalsClick.png)
 
-6. Notice the different types of **approvals**  and **approvers**.
+6. Notice the different types of **approvals** and **approvers**.
 
 ![](_attachments/Req470-WorkItemApprovals.png)
 
@@ -79,7 +79,7 @@ A parent review work item cannot be closed until all children have been approved
 
 ![](_attachments/Problem483-Links-RelatedArtifacts.png)
 
-19. Notice the link returns to the **Requirements Review Basesline** with **5103: The system shall perform a self test on initiation** selected.
+19. Notice the link returns to the **Requirements Review Baseline** with **5103: The system shall perform a self test on initiation** selected.
 
 ![](_attachments/Problem483-RequirementsReview.png)
 

@@ -34,25 +34,25 @@ The video below illustrates how this Act of the ELM demonstration can be perform
 
     As per ISO 13485, requirements need to be approved and reviewed. Lets return to our dashboard and see how a review cycle takes place. Here we have a work item to review the System Requirements for the Infusion Pump. Here on the approvals tab there are several approvals that are required to complete this work – the reviews themselves and a final managerial approval. Here on the links tab there are several links: The review baseline is the document that our reviewers have been asked to review.  This child task is an issue that was raised during the review and lastly the approved baseline is a link to the baselined document after the review was completed and the requirements were approved.
 
-    Lets start by clicking the Review baseline link. Note that the system requirements document has opened – but in the context of a Baseline, and so these artifacts are all frozen and cannot be edited.
+    Let's start by clicking the Review baseline link. Note that the system requirements document has opened – but in the context of a Baseline, and so these artifacts are all frozen and cannot be edited.
 
-    Lets go back to the work item and click the child task. Here we can see that this is an Issue – raised by one of our reviewers, Dan, and he’s assigned the work item to Susan to resolve. At the bottom we can see a description of Dan’s issue – he doesn’t think the requirement is complete enough and has also identified a potential missing requirement. Further down we can see that Susan has replied – she agreed and made some changes to the document in response to the review comment.
+    Let's go back to the work item and click the child task. Here we can see that this is an Issue – raised by one of our reviewers, Dan, and he’s assigned the work item to Susan to resolve. At the bottom we can see a description of Dan’s issue – he doesn’t think the requirement is complete enough and has also identified a potential missing requirement. Further down we can see that Susan has replied – she agreed and made some changes to the document in response to the review comment.
 
     On the Approvals tab, Dan added himself as the approver. Note that the parent review work item would not have been allowed to close until all of its children were also approved and closed – so any issues raised during the review would prevent it from completing until they were addressed.
 
-    On the links tab there is a link to the requirement that had a problem – which helped Susan identify it in the document. Lets follow that link and take a look.
+    On the links tab there is a link to the requirement that had a problem – which helped Susan identify it in the document. Let's follow that link and take a look.
 
     Again we are in the context of the review baseline and the requirement reads The system shall perform a self test on initiation. As we saw in the work item, Susan agreed with the review comment that is was not complete enough and made some changes – after that the review work item was approved and closed, and another baseline was taken and electronically signed. Let’s switch to that baseline and see what happened. It may not be immediately obvious what the changes were but the ELM Platform allows us to compare artifacts to see any differences – in this case let’s compare this approved baseline to the original review baseline.
 
     Here we can see the additional requirement that Susan added as well as the existing requirement that was modified – highlighted in blue. We can dive deeper into that requirement and see the modifications that were made.
 
-    Lets now close that comparison and return to the document. Next we can follow this link to the actual approved baseline where we can see its electronic signature.
+    Let's now close that comparison and return to the document. Next we can follow this link to the actual approved baseline where we can see its electronic signature.
 
     Now let’s look at risk management. First we’ll return to our project dashboard and once again we’ll switch back to the main team working area.
 
     Here on our dashboard we have two tabs of interest – FMEA or Failure Modes and Effects Analysis and Operational Hazard Analysis. There are many similarities between the two – they both examine failure modes, effects and causes – the primary difference is that operational hazard analysis focuses on what could go wrong if the product is used incorrectly whilst FMEA focuses on the identification of possible failures in the design of the product components.
 
-    Lets start with FMEA. Our dashboard is surfacing the results of the FMEA analysis in a consumable way – for example at the top here we have a traceability view from the system requirement to a potential failure related to that requirement, to the safety requirement that was created to mitigate against the risk of that happening.
+    Let's start with FMEA. Our dashboard is surfacing the results of the FMEA analysis in a consumable way – for example at the top here we have a traceability view from the system requirement to a potential failure related to that requirement, to the safety requirement that was created to mitigate against the risk of that happening.
 
     On the right we have more of a metrics view – how many failure modes are mitigated by safety requirements and how many are not.
 
@@ -60,15 +60,15 @@ The video below illustrates how this Act of the ELM demonstration can be perform
 
     Here we can see the columns of information that allow us to perform the FMEA – the identified failure mode, the effects of that failure, its potential causes and any current controls we have in place. Those assessments allow us to assign numeric values for Severity, Probability and Detection – and those can then be used to calculate the Risk Priority Number or RPN which is a simple measure of comparison.
 
-    Here too the platform can help by automating steps or performing calculations on the data.
+    The platform can help by automating steps and performing calculations on the data.
 
-    Lets see an example of this in action – we’’ll start by making a change set so we can make some changes to this data.
+    Let's see an example of this in action – we’ll start by making a change set so we can make some changes to this data.
 
-    Then lets edit this Risk Priority Number and actually delete that value.
+    Then let's edit this Risk Priority Number and actually delete that value.
 
     Now in our mini-dashboard we can expand this RPN Calculator which will perform that calculation for us and populate the field again. Of course that’s a very simple example and a very simple calculation but it shows how the basic capabilities of the platform may be extended with automation widgets like these.
 
-    OK lets go ahead and discard that changeset – and as before we’ll also switch back to the team area.
+    OK lets go ahead and discard that change set – and as before we’ll also switch back to the team area.
 
     Back on our Project Dashboard lets now select Operational Hazard Analysis. That analysis is performed in much the same way as FMEA with the major difference being that these hazards are the result of user error rather than device failure.
 

@@ -165,7 +165,7 @@ Manual tests may be performed in the lab using the web browser, but may also be 
 
 ![](_attachments/PD-STP-failed-tc-1-ExecutionRecords-Results.png)
 
-39. Click the **defect** labled **392: Failing Test case...**.
+39. Click the **defect** labeled **392: Failing Test case...**.
 
 ![](_attachments/PD-STP-failed-tc-1-ExecutionRecords-ResultsDefect.png)
 
