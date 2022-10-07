@@ -12,7 +12,7 @@ Act 1 - Design Planning and Dash-boarding. This act includes an introduction to 
 
 Act 2 - Product Requirements. In Act 2, look at the key capabilities associated with requirements management including traceability and audit trails.
 
-Act 3 - Design Input. In this act, examine how customer requirements are traced down to system requirements, how those requirements are checked for quality and reviewed for correctness, and how baselines are created with electronic signatures. In addition, learn how to perform risk management activities.
+Act 3 - Design Input. In this act, examine how client requirements are traced down to system requirements, how those requirements are checked for quality and reviewed for correctness, and how baselines are created with electronic signatures. In addition, learn how to perform risk management activities.
 
 Act 4 - Design Output. Next, learn how design verification is performed to prove requirement coverage and design validation is performed to demonstrate test case coverage, test case execution, and defect tracking.
 
@@ -31,7 +31,7 @@ The video below provides a sample introduction to the demonstration.
 
     Then we’ll take a look at Product Requirements where we’ll see some of the key capabilities around requirements management including traceability and audit trails.
 
-    After that we’ll move on to Design Input where we’ll see how customer requirements are traced down to system requirements, how those requirements are checked for quality and reviewed for correctness and how we create baselines with electronic signatures. We’ll also see how we can perform risk management activities.
+    After that we’ll move on to Design Input where we’ll see how client requirements are traced down to system requirements, how those requirements are checked for quality and reviewed for correctness and how we create baselines with electronic signatures. We’ll also see how we can perform risk management activities.
 
     After that we’ll move to Design Output where we’ll see Design Verification to prove coverage of the requirements by the design and Design Validation where we’ll show test coverage, test execution and defect tracking.
 
