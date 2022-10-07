@@ -102,7 +102,7 @@ Note that this tab is surfacing analysis reports such as traceability from **Sys
 
 ![](_attachments/TopHeaderBar.png)
 
-26. Click the **Operational Hazar Analysis** tab.
+26. Click the **Operational Hazard Analysis** tab.
 
 ![](_attachments/ProjectDashboardTabs.png)
 

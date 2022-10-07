@@ -85,7 +85,7 @@ Engineering Test Management (ETM) provides a collaborative hub for systems and s
 
 ![](_attachments/PD-STP-Links-ReqCheckBoxes.png)
 
-21. Click the **Generate** pulldown, but do not click **Generate**.
+21. Click the menu pulldown ![](_attachments/pullDownMenuIcon) icon, but do not click any of the **Generate ...** actions.
 
 ![](_attachments/PD-STP-Links-GeneratePulldown.png)
 
