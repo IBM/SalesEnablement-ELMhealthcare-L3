@@ -99,7 +99,7 @@ A parent review work item cannot be closed until all children have been approved
 
 ![](_attachments/SwitchDialog2.png)
 
-24. Enter an ***** in the search box to show all **Baselines**.
+24. Enter an **\*** in the search box to show all **Baselines**.
 
 ![](_attachments/SwitchDialog3.png)
 

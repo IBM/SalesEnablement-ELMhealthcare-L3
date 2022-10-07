@@ -108,7 +108,7 @@ Now is a good time to explore the other widgets on the **Design Planning** tab o
 ![](_attachments/Dashboard-DesignPlanning-SolutionRoadmap-SummaryExpanded.png)
 
 15. Notice the items with the **Work Item Type** equal to **Feature**.
-16. Click the ![](_attachments/ExpandIcon.png) icon next to the **Initiate drub infusion** **Feature**.
+16. Click the ![](_attachments/ExpandIcon.png) icon next to the **Initiate drug infusion** **Feature**.
 
 ![](_attachments/Dashboard-DesignPlanning-SolutionRoadmap-InitiateDrugInfusion-1.png)
 

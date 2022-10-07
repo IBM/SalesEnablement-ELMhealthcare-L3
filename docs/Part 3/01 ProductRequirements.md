@@ -53,7 +53,7 @@ The video below illustrates how this Act of the ELM demonstration can be perform
 
 ![](_attachments/Artifacts.png)
 
-Take note of the various **Artifact Types** of the documents, such as the **04 Hazard and RiskAnalysis** artifact types shown below.
+Take note of the various **Artifact Types** of the documents, such as the **04 Hazard and Risk Analysis** artifact types shown below.
 
 ![](_attachments/ArtifactTypes.png)
 

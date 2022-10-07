@@ -1,4 +1,4 @@
-Welcome to the {{learningplan.name}} demonstration guide! The goal of this demonstration guide is to provide sellers and technical sellers from IBM and Business Partners with the knowledge and tools to perform hands-on demonstrations of {{offering.name}}. Throughout this demonstration guide {{offering.name}} will be referred to as COS.
+Welcome to the {{learningplan.name}} demonstration guide! The goal of this demonstration guide is to provide sellers and technical sellers from IBM and Business Partners with the knowledge and tools to perform hands-on demonstrations of {{offering.name}}. Throughout this demonstration guide {{offering.name}} will be referred to as ELM.
 
 While everyone is encouraged to complete all sections of the demonstration guide, actual completion requirements vary by role:
 
@@ -35,7 +35,7 @@ The {{guide.name}} is organized in parts and sub-parts or chapters. Most chapter
 Throughout the guide, images are used to help guide students through the demonstration.
 
 !!! warning
-    The {{offering.name}} user interface changes on a regular basis. Images captured in this guide may differ from the live demonstration environment in TechZone.
+    The {{offering.name}} user interface and data changes on a regular basis. Images captured in this guide may differ from the live demonstration environment in TechZone.
 
 The following styles of highlighting are utilized in images:
 
