@@ -78,5 +78,8 @@ The **Username** and **Password** fields are pre-populated with the **susanreq**
 ![](_attachments/CompleteDashboard.png)
 
 <!-- At this point the **Infusion Pump** dashboard should be fully loaded with out errors. If not, wait a minute and click the browser refresh icon ![](_attachments/ChromeRefresh.png). Repeat if necessary. -->
+To fix the broken widgets, slowly click through each of the **Infusion Pump Requirements Project Dashboard's** tabs. If after returning to the **General** tab the widget at far right is still reporting an error, try clicking the browser's refresh/reload button. Repeat this process a couple of times, the errors should resolve and data will appear in those widgets.
+
+![](_attachments/WidgetError2.png)
 
 In **Act 1**, begin the journey to learn how to demonstrate IBM Engineering Lifecycle Management (ELM). Note, this is not a deep dive into IBM ELM, rather a brief overview of some of the major capabilities and benefits.
