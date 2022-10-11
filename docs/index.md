@@ -82,23 +82,22 @@ Click the play button ![](_attachments/ClickThruPlayButton.png) in the middle of
 The following acronyms are used throughout this demonstration guide:
 
     - Application programming interfaces (APIs)
+    - Architectural Management (AM)
+    - Change and Configuration Management (CCM)
     - Control (ctrl) - The control key on keyboard
     - Engineering Lifecycle Management (ELM)
-    - IBM Technology Zone (TZ) - Also referred to as TechZone
-    - International Organization for Standardization (ISO)
-    - International Electrotechnical Commission (IEC)
-    - Virtual Machine (VM)
-    - Identification (ID)
-    - Software (SW)
-    - Requirements Management (RM)
-    - Change and Configuration Management (CCM)
-    - Failure Modes and Effects Analysis (FMEA)
-    - Risk Priority Number (RPN)
-    - Requirements Quality Assistant (RQA)
-    - Portable Document Format (PDF)
-    - Architectural Management (AM)
-    - Open  Services for Lifecycle Collaboration (OSLC)
     - Engineering Test Management (ETM)
-    -
+    - Failure Modes and Effects Analysis (FMEA)
+    - IBM Technology Zone (TZ) - Also referred to as TechZone
+    - Identification (ID)
+    - International Electrotechnical Commission (IEC)
+    - International Organization for Standardization (ISO)
+    - Open Services for Lifecycle Collaboration (OSLC)
+    - Portable Document Format (PDF)
+    - Requirements Management (RM)
+    - Requirements Quality Assistant (RQA)
+    - Risk Priority Number (RPN)
+    - Software (SW)
+    - Virtual Machine (VM)
 
 It is now time to proceed to Part 1, an overview of {{offering.name}}.

@@ -70,7 +70,7 @@ Note that this tab is surfacing analysis reports such as traceability from **Sys
 
 ![](_attachments/FMEA-RPNPanel.png)
 
-18. Scroll down in the **FMEA-RPN**  widget and click the **Calculate RPN** button.
+18. Scroll down in the **FMEA-RPN** widget and click the **Calculate RPN** button.
 
 ![](_attachments/FMEA-RPNPanelExpanded.png)
 
