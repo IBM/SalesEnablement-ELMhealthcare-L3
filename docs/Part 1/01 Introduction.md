@@ -16,7 +16,7 @@ Act 3 - Design Input. In this act, examine how client requirements are traced do
 
 Act 4 - Design Output. Next, learn how design verification is performed to prove requirement coverage and design validation is performed to demonstrate test case coverage, test case execution, and defect tracking.
 
-Act 5 - Engineering Insights for Metrics. NEED A DESCRIPTION WRITTEN FOR THIS!!!!
+Act 5 - Engineering Insights for Metrics. Explore ELM's **V-model** graphical representation of the systems development lifecycle.
 
 The video below provides a sample introduction to the demonstration.
 
