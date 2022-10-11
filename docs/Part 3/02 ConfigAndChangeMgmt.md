@@ -8,7 +8,7 @@ The message informs users that the module is under change management. Later in t
 
 ![](_attachments/OpenHistory.png)
 
-??? info "Birds eye view"
+??? info "Birds-eye view"
     ![](_attachments/OpenHistory-BEV.png)
 
 2. Click the **Audit History** tab.

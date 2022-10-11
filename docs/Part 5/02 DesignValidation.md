@@ -24,7 +24,7 @@ Notice this **test case** is part of a **Test Plan** and that it validates a req
 
 ![](_attachments/FMEAtab-2-ValidateByTM-Failure-TC.png)
 
-??? info "Birds eye view"
+??? info "Birds-eye view"
     ![](_attachments/FMEAtab-2-ValidateByTM-Failure-TC-BEV.png)
 
 7. Hover the the mouse over the linked **requirement** to show rich hover information.
@@ -145,7 +145,7 @@ Manual tests may be performed in the lab using the web browser, but may also be 
 
 ![](_attachments/PD-STP-failed-tc-1-manual-runIcon.png)
 
-??? info "Birds eye view"
+??? info "Birds-eye view"
 
 ![](_attachments/PD-STP-failed-tc-1-manual-runIcon-BEV.png)
 

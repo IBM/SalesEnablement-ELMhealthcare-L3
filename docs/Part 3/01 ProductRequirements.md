@@ -21,7 +21,7 @@ The video below illustrates how this Act of the ELM demonstration can be perform
 
     Any changes that are made are automatically tracked and maintained for an audit trail. We can view the history of a single requirement – or in this case the entire document. This Audit History shows us every change that was made. Who made it, when it happened, the exact nature of the change and the change set in which it was made.
 
-    Now lets look at traceability which is mandated in ISO 13485
+    Now let us look at traceability which is mandated in ISO 13485.
 
     Traditionally, traceability is maintained in separate documents such as spreadsheets – a manual process, prone to error, very costly to maintain and outdated as soon as the author clicks “save”. In the ELM platform traceability is added directly to the artifacts themselves – right here in the web browser.
 
@@ -40,13 +40,13 @@ The video below illustrates how this Act of the ELM demonstration can be perform
 ![](_attachments/ReturnToDashboard.png)
 
 !!! warning
-    Do not try to click Project Dashboard in the menu bar as that will open the CCM project dashboard and not the RM dashboard.
+    Do not try to click Project Dashboard in the menu bar as that will open the Change and Configuration Management (CCM) project dashboard and not the Requirements Management (RM) dashboard.
 
 2. Click the **Artifacts** tab in the main header bar.
 
 ![](_attachments/HeaderBar-Artifacts.png)
 
-??? info "Birds Eye View"
+??? info "Birds-eye View"
     ![](_attachments/HeaderBar-BEV.png)
 
 3. Click on each folder in turn to show the hierarchy of requirements documents (Modules).
@@ -89,7 +89,7 @@ Notice that each **object** in the document is an independent, atomic artifact. 
 
 ![](_attachments/Artifacts-ViewsMenu.png)
 
-??? info "Birds eye view"
+??? info "Birds-eye view"
     ![](_attachments/Artifacts-ViewsMenu-BEV.png)
 
 11. Notice that each artifact can be of a different type, and have different attributes based upon the type.

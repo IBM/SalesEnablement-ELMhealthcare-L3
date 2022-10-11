@@ -17,7 +17,7 @@ The video below illustrates how this Act of the ELM demonstration can be perform
 
     Let’s select the SW Development Process Objective. Here we can see a detailed list of the Objectives under that heading. 5.1 is all about planning, 5.2 is about requirements, 5.3 is focussed on architecture and so on.
 
-    By way of example lets click on 5.7.1 – which is all about verification – and specifies that the SW Verification Tests shall cover all requirements and include inputs, outputs and selected outcomes.
+    By way of example lets click on 5.7.1 – which is all about verification – and specifies that the Software (SW) Verification Tests shall cover all requirements and include inputs, outputs and selected outcomes.
 
     Below the Objective we can see how it is mapped to the workflow. There is a list of the related elements in the detailed workflow guidance that helps our engineering teams to actually meet these objectives.
 

@@ -6,7 +6,7 @@
 
 ![](_attachments/PD-Reviews.png)
 
-??? info "Birds eye view"
+??? info "Birds-eye view"
     ![](_attachments/PD-Reviews-BEV.png)
 
 3. Click **470: Review Infusion Pump System Requirements**.
@@ -139,7 +139,7 @@ A parent review work item cannot be closed until all children have been approved
 
 ![](_attachments/InBoth.png)
 
-??? info "Birds eye view"
+??? info "Birds-eye view"
     ![](_attachments/InBoth-BEV.png)
 
 34. Click **4777: Infusion Pump System Requirements**.

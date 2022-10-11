@@ -116,7 +116,7 @@ Note, the tab has a table of hazards containing their possible causes, actions, 
 
 ![](_attachments/OHA-generatedDocs.png)
 
-??? info "Birds eye view"
+??? info "Birds-eye view"
     ![](_attachments/OHA-generatedDocs-BEV.png)
 
 29. Explore the **Risk Management File** generated document.

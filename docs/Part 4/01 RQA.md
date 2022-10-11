@@ -90,7 +90,7 @@ A **change set** allows a team to manage the impact of changes and ensures that 
 
 ![](_attachments/CurrentContextButton.png)
 
-??? info "Birds eye view"
+??? info "Birds-eye view"
     ![](_attachments/CurrentContextButton-BEV.png)
 
 4. Click **Create Change Set...**.
@@ -156,7 +156,7 @@ It will take a few seconds for the RQA scoring to complete.
 ![](_attachments/Req5107.png)
 
 !!! warning
-    The RQA team releases a new version every 2 weeks. It is impossible to keep training material up to date with that schedule. The scores returned by RQA may therefore be completely different than the ones recorded in this document. If this is the case then skip fixing the requirement below and discard the change set.
+    The RQA team releases a new version every 2 weeks. It is impossible to keep training material up to date with that schedule. The scores returned by RQA may therefore be completely different than the ones recorded in this document. If this is the case, then skip fixing the requirement below and discard the change set.
 
 18. Click **Show details** under the **5107 requirement**.
 

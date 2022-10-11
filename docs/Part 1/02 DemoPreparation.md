@@ -21,7 +21,7 @@ Wait until the VM changes from **Busy** to **Running** before proceeding.
 ![](_attachments/TZVMReady.png)
 
 4. Click anywhere on the background to display the Administrator login prompt.
-5. Log into Microsoft Windows using the ID: **Administrator** and Password: **{{tz_environment.adminPW}}.
+5. Log into Microsoft Windows using the ID: **Administrator** and Password: **{{tz_environment.adminPW}}**.
 
 ![](_attachments/AdminLogin.png)
 
