@@ -4,7 +4,7 @@ While everyone is encouraged to complete all sections of the demonstration guide
 
 - IBM Sales:
 
-    * Complete Acts 1 and 2 of this demonstration guide
+    * Complete Acts 1, 2, and 3 of this demonstration guide
     * Record and submit a Stand and Deliver demonstration to be evaluated by management (details in the Your Learning plan)
 
 - IBM Technical Sales:
@@ -14,7 +14,7 @@ While everyone is encouraged to complete all sections of the demonstration guide
 
 - Business Partner Sales:
 
-    * Complete Acts 1 and 2 of this demonstration guide
+    * Complete Acts 1, 2, and 3 of this demonstration guide
     * Successfully pass a 5 question quiz found in the learn.ibm.com plan
 
 - Business Partner Sales:
