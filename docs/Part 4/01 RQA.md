@@ -58,19 +58,19 @@ The video below illustrates how this Act of the ELM demonstration can be perform
 
     These are not just pictures; this is all live data. Let’s use the traceability view to navigate into the FMEA document and see the analysis.
 
-    Here we can see the columns of information that allow us to perform the FMEA – the identified failure mode, the effects of that failure, its potential causes and any current controls we have in place. Those assessments allow us to assign numeric values for Severity, Probability and Detection – and those can then be used to calculate the Risk Priority Number or RPN which is a simple measure of comparison.
+    Here we can see the columns of information that allow us to perform the FMEA – the identified failure mode, the effects of that failure, its potential, causes and any current controls we have in place. Those assessments allow us to assign numeric values for Severity, Probability, and Detection – and those can then be used to calculate the Risk Priority Number (RPN), which is a simple measure of comparison.
 
     The platform can help by automating steps and performing calculations on the data.
 
-    Let's see an example of this in action – we’ll start by making a change set so we can make some changes to this data.
+    Let's see an example of this in action. We’ll start by making a change set so we can make some changes to this data.
 
     Then let's edit this Risk Priority Number and actually delete that value.
 
-    Now in our mini-dashboard we can expand this RPN Calculator which will perform that calculation for us and populate the field again. Of course that’s a very simple example and a very simple calculation but it shows how the basic capabilities of the platform may be extended with automation widgets like these.
+    Now in our mini-dashboard we can expand this RPN Calculator, which will perform that calculation for us and populate the field again. Of course that’s a very simple example and a very simple calculation, but it shows how the basic capabilities of the platform may be extended with automation widgets like these.
 
-    OK lets go ahead and discard that change set – and as before we’ll also switch back to the team area.
+    Let's go ahead and discard that change set – and as before we’ll also switch back to the team area.
 
-    Back on our Project Dashboard lets now select Operational Hazard Analysis. That analysis is performed in much the same way as FMEA with the major difference being that these hazards are the result of user error rather than device failure.
+    Back on our Project Dashboard, let's now select Operational Hazard Analysis. That analysis is performed in much the same way as FMEA with the major difference being that these hazards are the result of user error rather than device failure.
 
     The ELM Platform allows for automatic generation of federated documentation. Here we have a link to an automatically generated document that combines both of those analyses into a Risk Management File.
 
@@ -123,9 +123,7 @@ A **change set** allows a team to manage the impact of changes and ensures that 
 
 Take notice of the columns in the RQA view: **RQA Score** and **Issues Found by RQA**.
 
-11. Click the **double arrow** ![](_attachments/DoubleArrows.png) icon in the sidebar to collapse both the left and right-hand sidebars.
-
-Hover the mouse between the **Views** panel and the table of **Requirements**.
+11. Hover the mouse between the **Views** panel and the table of **Requirements**, and click the **double arrow** ![](_attachments/DoubleArrows.png) icon in the sidebar to collapse both the left and right-hand sidebars.
 
 ![](_attachments/HideSideBars.png)
 
@@ -182,43 +180,43 @@ Now that the ambiguity of the requirement is removed, recheck the modified artif
 
 ![](_attachments/Req5107Rescored.png)
 
-Checking the requirements for quality is not a replacement for a review rather an enhancement. Check and fixing quality before going into a review means that domain experts can spend their valuable time reviewing the intent of the requirement rather than wasting time on poorly written requirements.
+Checking the requirements for quality is not a replacement for a review; rather an enhancement. Checing and fixing quality before going into a review means that domain experts can spend their valuable time reviewing the intent of the requirement rather than wasting time on poorly written requirements.
 
-In a real project all requirements would be checked and fixed before creating a baseline and moving into a review cycle. For this demonstration environment, the changes will be discarded.
+In a real project, all requirements would be checked and fixed before creating a baseline and moving into a review cycle. For this demonstration environment, the changes will be discarded.
 
-21. Click the **Pin** ![](_attachments/PinIcon2.png) to collapse the **Mini Dashboard**>
+23. Click the **Pin** ![](_attachments/PinIcon2.png) to collapse the **Mini Dashboard**>
 
 ![](_attachments/CollapseDashboard.png)
 
-22. Click away from the **Mini Dashboard** so it slides back in place.
-23. Click the **current context button**.
+24. Click away from the **Mini Dashboard** so it slides back in place.
+25. Click the **current context button**.
 
 ![](_attachments/CurrentContextButton.png)
 
-24. Click **Discard Change Set...**.
+26. Click **Discard Change Set...**.
 
 ![](_attachments/DiscardCurrentChangeSet.png)
 
-25. Click the **Discard the Change Set** button.
+27. Click the **Discard the Change Set** button.
 
 ![](_attachments/DiscardCurrentChangeSetButton.png)
 
 !!! important "Important"
     Creating a change set moves the context out of the base global configuration into a personal stream (Susan's in this environment). Discarding (or delivering) the change set does not return to the base global configuration – one must switch back to the base ‘variant’ of the product using the favorites menu.
 
-26. Click the **current context button**.
+28. Click the **current context button**.
 
 ![](_attachments/CurrentContextButton.png)
 
-27. Click the **dropdown** button to see the recently used and favorite configurations.
+29. Click the **dropdown** button to see the recently used and favorite configurations.
 
 ![](_attachments/CurrentContextSwitch.png)
 
-28. Click the **Infusion Pump Base** global stream.
+30. Click the **Infusion Pump Base** global stream.
 
 ![](_attachments/GlobalStream.png)
 
-29. Click the **collapsed left-hand sidebar** to expand and reveal the **Views** panel.
+31. Click the **collapsed left-hand sidebar** to expand and reveal the **Views** panel.
 
 ![](_attachments/ExpandViewsPanel.png)
 

@@ -4,6 +4,6 @@ Note, similar demonstration of ELM for other industries are available on IBM Tec
 
 Finally, remember to complete the {{learningplan.name}} learning plan in either YourLearning (IBM employees) or learn.ibm.com (Business Partners).
 
-**IBM Sales** and **IBM Technical** sales must complete a Stand and Deliver exercise to validate their ability to demonstrate {{offering.name}} to potential clients. Refer to the evaluation rubric in the learning plan when preparing the Stand and Deliver.
+**IBM Sales** and **IBM Technical Sales** must complete a Stand and Deliver exercise to validate their ability to demonstrate {{offering.name}} to potential clients. Refer to the evaluation rubric in the learning plan when preparing the Stand and Deliver.
 
 **Business Partners** (both sellers and technical sellers) must pass the {{learningplan.name}} quiz from learn.ibm.com. Remember, take the quiz while the reservation to the TechZone environment is active. The Business Partner quiz verifies use of the demonstration environment and not general knowledge of the offering.

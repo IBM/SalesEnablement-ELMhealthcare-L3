@@ -151,7 +151,7 @@ A parent review work item cannot be closed until all children have been approved
 ![](_attachments/InBothReportTable.png)
 
 !!! bug
-    Ignore the orange boxes. This is a known issue with the user interface.
+    Orange boxes may appear in the output as shown in the image above. They can be ignored.
 
 36. Click the **Show changes** link.
 
@@ -193,4 +193,4 @@ The platform can be configured such that changes cannot be delivered unless thos
 
 ![](_attachments/Baseline-ESig-Details.png)
 
-The Review also has electronic signatures both for the Approval and also the final state change to Approved – this only appears in the History of the Review work item. Feel free to show that before showing Risk Management below. The project dashboard also has a Reviews tab showing reports and summaries of Reviews.
+The Review also has electronic signatures, both for the Approval and the final state change to Approved. This only appears in the History of the Review work item. Feel free to show that before showing Risk Management (found in the next chapter of this Act). The project dashboard also has a Reviews tab showing reports and summaries of Reviews.

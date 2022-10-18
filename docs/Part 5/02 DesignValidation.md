@@ -20,7 +20,7 @@
 
 6. Notice the right-hand sidebar.
 
-Notice this **test case** is part of a **Test Plan** and that it validates a requirement, has a related **test script**, a link to the most recent **test execution result**, and also a linked **defect** which was raised when the last test execution failed.
+Notice this **test case** is part of a **Test Plan** and that it validates a requirement. It has a related **test script**, a link to the most recent **test execution result**, and also a linked **defect** which was raised when the last test execution failed.
 
 ![](_attachments/FMEAtab-2-ValidateByTM-Failure-TC.png)
 
@@ -31,7 +31,7 @@ Notice this **test case** is part of a **Test Plan** and that it validates a req
 
 ![](_attachments/FMEAtab-2-ValidateByTM-Failure-TC-Hover.png)
 
-Engineering Test Management (ETM) provides a collaborative hub for systems and software quality across virtually any platform and type of testing. Teams can collaborate and share information easily and seamlessly – here for example a tester can see the requirement they are testing without the need to open the requirements tool or refer to a spreadsheet. Test Plans, Test Cases, Test Scripts – all traced to developments, requirements, and designs really help when you’re trying to prove compliance to industry standards.
+Engineering Test Management (ETM) provides a collaborative hub for systems and software quality across virtually any platform and type of testing. Teams can collaborate and share information easily and seamlessly. Here for example, a tester can see the requirement they are testing without the need to open the requirements tool or refer to a spreadsheet. Test Plans, Test Cases, Test Scripts are all traced to developments, requirements, and designs really help when you’re trying to prove compliance to industry standards.
 
 8. Click the **Infusion Pump Testing** dashboard under **Project Dashboards**.
 
@@ -109,39 +109,35 @@ Engineering Test Management (ETM) provides a collaborative hub for systems and s
 
 ![](_attachments/PD-STP-sidebar-7.png)
 
-27. Click **Test Case Results** in the sidebar and explore the page.
-
-![](_attachments/PD-STP-sidebar-6.png)
-
-28. Notice the test has a test script called **Maximum Flow Rate Test**.
+27. Notice the test has a test script called **Maximum Flow Rate Test**.
 
 ![](_attachments/PD-STP-failed-tc.png)
 
-29. Click **109: Each pump channel shall...** link in the **Test Case** column.
+28. Click **109: Each pump channel shall...** link in the **Test Case** column.
 
 ![](_attachments/PD-STP-failed-tc-1.png)
 
-30. Click **Test Scripts** in the sidebar.
+29. Click **Test Scripts** in the sidebar.
 
 ![](_attachments/PD-STP-failed-tc-1-sidebar.png)
 
-31. Notice that this is a **manual** test script.
+30. Notice that this is a **manual** test script.
 
 ![](_attachments/PD-STP-failed-tc-1-manual.png)
 
-32. Click **Manual Steps** in the sidebar.
+31. Click **Manual Steps** in the sidebar.
 
 ![](_attachments/PD-STP-failed-tc-1-sidebar-2.png)
 
-33. Notice this is a **manual** test script and the **steps** and **expected results** are displayed.
+32. Notice this is a **manual** test script, and the **steps** and **expected results** are displayed.
 
 ![](_attachments/PD-STP-failed-tc-1-manual-2.png)
 
-Test Cases can be manual or automated. For automated test cases RQM can invoke the test and gather the results here in the hub. Automated tests could be executed by testing tools like those National Instruments.
+Test Cases can be manual or automated. For automated test cases, RQM can invoke the test and gather the results here in the hub. Automated tests could be executed by testing tools like those National Instruments.
 
 Manual tests may be performed in the lab using the web browser, but may also be exported out so that the tester can use a smart device like an iPad to perform the tests in the field – and then upload the results when they come back to the office or lab.
 
-34. Click the **Run pulldown** at the top of the page, but do not click **Run**.
+33. Click the **Run pulldown** at the top of the page, but do not click **Run**.
 
 ![](_attachments/PD-STP-failed-tc-1-manual-runIcon.png)
 
@@ -149,11 +145,11 @@ Manual tests may be performed in the lab using the web browser, but may also be 
 
 ![](_attachments/PD-STP-failed-tc-1-manual-runIcon-BEV.png)
 
-35. Click **Test Execution Records** in the sidebar.
+34. Click **Test Case Execution Records** in the sidebar.
 
 ![](_attachments/PD-STP-failed-tc-1-sidebar-3.png)
 
-36. Notice this shows all the execution runs of this test case, which test script was executed, and the result of the test.
+35. Notice this shows all the execution runs of this test case, which test script was executed, and the result of the test.
 
 ![](_attachments/PD-STP-failed-tc-1-ExecutionRecords-1.png)
 

@@ -30,7 +30,7 @@ nav:
     - 'Design Validation': 'Part 5/02 DesignValidation.md'
   - Act 5:
     - 'Engineering Insights for Metrics': 'Part 6/01 EngineeringInsights.md'
-  - 'Next steps': 'NextSteps.md'
+  - 'Next Steps': 'NextSteps.md'
 
 theme:
   name: material

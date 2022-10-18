@@ -22,4 +22,4 @@ From here, one can navigate into each requirement using Engineering Requirements
 
 Learn more about **V-Models** <a href="https://en.wikipedia.org/wiki/V-Model" target="_blank">here</a>.
 
-That concludes the demonstration of ELM.
+This concludes the demonstration of ELM.

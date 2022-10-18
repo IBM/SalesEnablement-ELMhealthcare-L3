@@ -18,13 +18,13 @@
 
 ![](_attachments/DashboardTabs.png)
 
-There are many similarities between **operational hazard analysis** and **Failure Modes and Effects (FMEA)**. Both examine functions, failure ‘modes’ (equipment failures or incorrect operations), effects and causes. The primary difference is that operational hazard analysis focuses on what could go wrong if the device is not used correctly. FMEA focuses on identification of potential hazards in the design. Additionally, a hazard analysis focuses solely on safety hazards whereas the scope of an FMEA covers safety as well as performance, quality and reliability.
+There are many similarities between **operational hazard analysis** and **Failure Modes and Effects (FMEA)**. Both examine functions, failure ‘modes’ (equipment failures or incorrect operations), effects, and causes. The primary difference is that operational hazard analysis focuses on what could go wrong if the device is not used correctly. FMEA focuses on identification of potential hazards in the design. Additionally, a hazard analysis focuses solely on safety hazards, whereas the scope of an FMEA covers safety as well as performance, quality, and reliability.
 
 6. Click the **FEMA** tab.
 
 ![](_attachments/DashboardTabsFEMA.png)
 
-7. Explore the **FEMA** page.
+7. Explore the **FMEA** page.
 
 ![](_attachments/FEMA.png)
 
@@ -50,7 +50,7 @@ Note that this tab is surfacing analysis reports such as traceability from **Sys
 
 ![](_attachments/CurrentContext-FEMA-CreateChangeSet.png)
 
-13. Enter **RPN** in the **Name** field and click **OK**.
+13. Enter **RPN** in the **Name** field and click **Create**.
 
 ![](_attachments/FEMA-NewChangeSet.png)
 
@@ -110,7 +110,7 @@ Note that this tab is surfacing analysis reports such as traceability from **Sys
 
 ![](_attachments/OHA-Explore.png)
 
-Note, the tab has a table of hazards containing their possible causes, actions, and the safety requirements that mitigate the hazards. The analysis is done in a similar way as FMEA so no need to dive into this one.
+Note, the tab has a table of hazards containing their possible causes, actions, and the safety requirements that mitigate the hazards. The analysis is done in a similar way as FMEA, so no need to dive into this one.
 
 28. Click the **Risk Management File** link in the **Generated Documentation** widget.
 
