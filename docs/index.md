@@ -30,7 +30,7 @@ Before jumping to part 1, please read the guidance below. Reading and understand
 
 ## Helpful tips for using this demonstration guide and environment
 
-The {{guide.name}} is organized in parts and sub-parts or chapters. Most chapters contain numbered steps, which are actions to be performed.
+The {{guide.name}} is organized into Acts. Most Acts contain numbered steps, which are actions to be performed.
 
 Throughout the guide, images are used to help guide students through the demonstration.
 
@@ -55,14 +55,14 @@ To assist in navigating the browser-based user interface (UI), a **birds-eye vie
 
 ![](_attachments/PathExploreHighlight.png)
 
-- Copy to clipboard box: The text is copied to the clipboard. Click the copy icon (highlighted below) and then paste using the operating systems paste function, for example, entering ++ctrl++**+v**, ++cmd++**+v**, or right-click and select paste.
+- Copy to clipboard box: The text is copied to the clipboard. Click the copy icon (highlighted below) and then paste using the operating system's paste function, for example, entering ++ctrl++**+v**, ++cmd++**+v**, or right-click and select paste.
 
 ![](_attachments/Usage-Clipboard.png)
 
-Additionally, throughout the demonstration guide there are sample narration scripts. The short narratives can be utilized when performing client facing demonstrations.
+Additionally, throughout the demonstration guide there are sample narration scripts. The short narratives can be utilized when performing client-facing demonstrations.
 
 !!! quote "Sample narration"
-    In this demonstration we’ll see how an infusion pump was engineered using the IBM ELM solution, in alignment with industry standards like ISO13485 and IEC 62304 for development and ISO 14971 for risk management. We’ll break the demo up into four acts...
+    In this demonstration we’ll see how an infusion pump was engineered using the IBM ELM solution, in alignment with industry standards like ISO 13485 and IEC 62304 for development and ISO 14971 for risk management. We’ll break the demo up into five acts...
 
 <!-- Additionally, there are several "click-thru" demonstrations. Links to click-thru demonstrations will open in a new browser window or tab with a screen similar to the image below.
 
@@ -100,4 +100,4 @@ The following acronyms are used throughout this demonstration guide:
     - Software (SW)
     - Virtual Machine (VM)
 
-It is now time to proceed to Part 1, an overview of {{offering.name}}.
+It is now time to proceed to the next section, an overview of {{offering.name}}.

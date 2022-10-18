@@ -1,4 +1,4 @@
-The following steps must be performed before delivering the demonstration. These steps should be performed several minutes prior to starting an actual client demonstration as the software services used take a few minutes to start and enter a ready state.
+The following steps must be performed before delivering the demonstration. These steps should be performed several minutes prior to starting an actual client demonstration, as the software services used take a few minutes to start and enter a ready state.
 
 ## Prepare the browser-based web client
 
@@ -25,7 +25,7 @@ Wait until the VM changes from **Busy** to **Running** before proceeding.
 
 ![](_attachments/AdminLogin.png)
 
-Note: the password contains two zero's and not capital Os.
+Note: the password contains two zero's and no capital Os.
 
 The Jazz Servers are set to auto-start when Windows starts up, but they will take a few minutes before they are ready.
 
@@ -78,7 +78,7 @@ The **Username** and **Password** fields are pre-populated with the **susanreq**
 ![](_attachments/CompleteDashboard.png)
 
 <!-- At this point the **Infusion Pump** dashboard should be fully loaded with out errors. If not, wait a minute and click the browser refresh icon ![](_attachments/ChromeRefresh.png). Repeat if necessary. -->
-To fix the broken widgets, slowly click through each of the **Infusion Pump Requirements Project Dashboard's** tabs. If after returning to the **General** tab the widget at far right is still reporting an error, try clicking the browser's refresh/reload button. Repeat this process a couple of times, the errors should resolve and data will appear in those widgets.
+To fix the broken widgets, slowly click through each of the **Infusion Pump Requirements Project Dashboard's** tabs. If after returning to the **General** tab the widget at far right is still reporting an error, try clicking the browser's refresh/reload button. Repeat this process a couple of times. The errors should resolve and data will appear in those widgets.
 
 ![](_attachments/WidgetError2.png)
 

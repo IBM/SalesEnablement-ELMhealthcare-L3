@@ -2,7 +2,7 @@ Notice the banner at the top of the **Artifacts** tab.
 
 ![](_attachments/ChangeSetMessage.png)
 
-The message informs users that the module is under change management. Later in the demonstration script a new change set will be created. For now, learn about the audit and traceability capabilities of ELM.
+The message informs users that the module is under change management. Later in the demonstration script, a new change set will be created. For now, learn about the audit and traceability capabilities of ELM.
 
 1. Click the **Open History** menu item under the hamburger menu ![](_attachments/hamburgerIcon.png) icon.
 
@@ -53,7 +53,7 @@ Notice the options available to set the **link validity** for the requirement.
 
 ![](_attachments/Artifacts-linkValidityOptions.png)
 
-Traditionally, traceability is maintained in separate documents such as spreadsheets – a manual process, prone to error, very costly to maintain, and usually outdated as soon as the author clicks “save”. Here traceability is added, maintained, and tracked directly in the IBM solution and can easily be reported on.
+Traditionally, traceability is maintained in separate documents such as spreadsheets. This is a manual process, prone to error, very costly to maintain, and usually outdated as soon as the author clicks “save”. Here traceability is added, maintained, and tracked directly in the IBM solution and can easily be reported on.
 
 To learn more about **link validity** go <a href="https://www.ibm.com/docs/en/elm/7.0.3?topic=configurations-link-validity-in-elm" target="_blank">here</a>.
 

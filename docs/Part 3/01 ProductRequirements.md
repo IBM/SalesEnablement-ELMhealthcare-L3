@@ -3,37 +3,37 @@ The video below illustrates how this Act of the ELM demonstration can be perform
 ![type:video](./_videos/ELM for Medical Devices Act 2-final.mp4)
 
 ??? quote "Sample narration"
-    Now let's look at Product Requirements. Let's return to our dashboard and take a look at the requirement Artifacts for the infusion pump. Here we can see that we have Modules – or documents of requirements organized at various levels, but as you’ll see in a few minutes, the requirements in those documents are all connected.
+    Now let's look at Product Requirements. Let's return to our dashboard and take a look at the requirement Artifacts for the infusion pump. Here we can see that we have Modules – or documents of requirements organized at various levels. As you’ll see in a few minutes, the requirements in those documents are all connected.
 
-    Let's open the Product Requirements document and take a closer look. These requirements reflect the end user needs, of course there are other documents reflecting regulatory requirements, system requirements, software requirements and so on.
+    Let's open the Product Requirements document and take a closer look. These requirements reflect the end user's needs. There are other documents reflecting regulatory requirements, system requirements, software requirements, etc.
 
-    Here we have a rich editing environment including pictures, rich text, tables and so on. The document has hierarchy – for example if we collapse the document we can see it has major sections; an introduction, a general description of the product and then more detailed requirements. If we expand the specific requirements section, we can see those requirements are organized into functional, performance, operational and so on.
+    Here we have a rich editing environment including pictures, rich text, table, and more. The document has hierarchy – for example if we collapse the document, we can see it has major sections; an introduction, a general description of the product, and then more detailed requirements. If we expand the specific requirements section, we can see those requirements are organized into functional, performance, operational, and so on.
 
-    Another important facet of good requirements management is granularity. Every sketch, requirement and heading in this document is an independent, atomic artifact which means that it can be directly referenced. As you will see later, traceability is between atomic artifacts rather than documents.
+    Another important facet of good requirements management is granularity. Every sketch, requirement, and heading in this document is an independent, atomic artifact which means that it can be directly referenced. As you will see later, traceability is between atomic artifacts rather than documents.
 
-    It also means that multiple users can all edit this same document at the same time and It facilitates re-use at the granular level - an artifact can be added to multiple documents so no more copy and paste and the overhead that comes with it.
+    It also means that multiple users can all edit this same document at the same time, and It facilitates re-use at the granular level - an artifact can be added to multiple documents, so no more copy and paste and the overhead that comes with it.
 
-    Artifacts have type – for example this document has Headings, Information Items and Product Requirements. Product Requirements have a Priority and a Status whilst the other types do not. A strong typing system like this reduces typographical errors and improves the consistency and report-ability of the data.
+    Artifacts have type – for example, this document has Headings, Information Items, and Product Requirements. Product Requirements have a Priority and a Status whilst the other types do not. A strong typing system like this reduces typographical errors and improves the consistency and report-ability of the data.
 
-    Note that here we’ve applied a view to quickly switch from the document style we saw previously to a spreadsheet style. Any of the artifact attributes may be shown as columns and views can also filter the data – for example this view shows only Product Requirements, along with their priority and status. This allows the user to quickly focus on what is important.
+    Note that here we’ve applied a view to quickly switch from the document style we saw previously to a spreadsheet style. Any of the artifact attributes may be shown as columns, and views can also filter the data – for example, this view shows only Product Requirements, along with their priority and status. This allows the user to quickly focus on what is important.
 
-    Notice at the top of the page here is a notification that if we want to make any changes to this document then we have to do that as part of a change set. This project has been placed under change control. This allows the team to manage the impact of changes as well as ensuring that changes are only made with the appropriate approvals and that those changes are properly documented.
+    Notice at the top of the page here is a notification that if we want to make any changes to this document, then we have to do that as part of a change set. This project has been placed under change control. This allows the team to manage the impact of changes, as well as ensuring that changes are only made with the appropriate approvals and that those changes are properly documented.
 
     Any changes that are made are automatically tracked and maintained for an audit trail. We can view the history of a single requirement – or in this case the entire document. This Audit History shows us every change that was made. Who made it, when it happened, the exact nature of the change and the change set in which it was made.
 
     Now let us look at traceability which is mandated in ISO 13485.
 
-    Traditionally, traceability is maintained in separate documents such as spreadsheets – a manual process, prone to error, very costly to maintain and outdated as soon as the author clicks “save”. In the ELM platform traceability is added directly to the artifacts themselves – right here in the web browser.
+    Traditionally, traceability is maintained in separate documents such as spreadsheets – a manual process, prone to error, very costly to maintain, and outdated as soon as the author clicks “save”. In the ELM platform traceability is added directly to the artifacts themselves – right here in the web browser.
 
     This view shows us not only the product requirements for the Infusion Pump but also the system requirements further downstream that satisfy them. For example – this product requirement – 4968 is satisfied by this system requirement 4812.
 
     If we hover our mouse over a linked requirement – like 4812, we can see another common capability across the platform – Rich Hover. Whenever there is a link to another engineering artifact, the key information about it is seen without actually following the link. That might be a linked requirement as in this case, but it might also be a requirements engineer looking at a linked design – or a test engineer looking at a requirement they are testing against. It’s a huge time saver.
 
-    We can also easily see Gap Analysis – which of these requirements has no traceability downstream – for example here requirement 5023 has no system level coverage. Of course that kind of information is also easily exposed onto dashboards – as we’ll see later.
+    We can also easily see Gap Analysis – which of these requirements has no traceability downstream – for example, here requirement 5023 has no system level coverage. Of course that kind of information is also easily exposed onto dashboards – as we’ll see later.
 
     Here we can see Link Validity. Whenever two artifacts are linked – if one of those artifacts changes then the connection between them becomes suspect. Here for example the link between 4968 and 4812 is suspect because one of those requirements got changed. Now an analysis is required to confirm that the link is still valid.
 
-    The ELM Platform automatically highlights when this happens so making that assessment is much easier and of course this is another common feature so that also applies for the linked models, test cases and so on.
+    The ELM Platform automatically highlights when this happens, so making that assessment is much easier and of course this is another common feature so that also applies for the linked models, test cases, and so on.
 
 1. Click the Chrome bookmark **Project Dashboards** and select the **Infusion Pump** bookmark.
 
@@ -57,7 +57,7 @@ Take note of the various **Artifact Types** of the documents, such as the **04 H
 
 ![](_attachments/ArtifactTypes.png)
 
-4. Click the **Product Requirements** folder, and then click **Infusion Pump Product Requirements**.
+4. Click the **Product Requirements** folder, and then click **Infusion Pump Intended Use and Product Requirements**.
 
 ![](_attachments/Artifacts-ProductRequirements.png)
 
@@ -102,6 +102,6 @@ A strong **typing** system reduces typographical errors and improves the consist
 
 ![](_attachments/Artifacts-ViewsMenu-2.png)
 
-Notice the **views** can also filter the displayed document data. In this case filtering out **Headings** and showing only **Product Requirements**.
+Notice the **views** can also filter the displayed document data. In this case, filtering out **Headings** and showing only **Product Requirements**.
 
 Next, explore the configuration and change management capabilities in ELM.

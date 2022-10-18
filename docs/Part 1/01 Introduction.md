@@ -6,11 +6,11 @@ In this demonstration, see how an infusion pump was engineered using the IBM ELM
 
 This demonstration assumes users have at least basic knowledge of {{offering.name}}. Before proceeding, it is highly encouraged that users complete the Engineering Lifecycle Management Fundamentals Level 1 learning plan. The plan is accessible to IBM employees <a href="https://yourlearning.ibm.com/activity/PLAN-105F0A636B9F" target="_blank">here</a> and Business Partners <a href="https://learn.ibm.com/course/view.php?id=11806" target="_blank">here</a>.
 
-The demonstration is divided into four acts:
+The demonstration is divided into five acts:
 
-Act 1 - Design Planning and Dash-boarding. This act includes an introduction to the ELM platform and how the development work for the infusion pump is planned and tracked.
+Act 1 - Design Planning and Dashboarding. This act includes an introduction to the ELM platform and how the development work for the infusion pump is planned and tracked.
 
-Act 2 - Product Requirements. In Act 2, look at the key capabilities associated with requirements management including traceability and audit trails.
+Act 2 - Product Requirements. Act 2 looks at the key capabilities associated with requirements management including traceability and audit trails.
 
 Act 3 - Design Input. In this act, examine how client requirements are traced down to system requirements, how those requirements are checked for quality and reviewed for correctness, and how baselines are created with electronic signatures. In addition, learn how to perform risk management activities.
 
