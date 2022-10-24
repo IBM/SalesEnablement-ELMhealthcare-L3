@@ -1,3 +1,5 @@
+At this time, the Requirements Quality Assistant (RQA) backend service used by this demonstration environment is no longer available. Please review the video below to learn about RQA and then proceed to the next chapter.
+
 The video below illustrates how this Act of the ELM demonstration can be performed for a client.
 
 ![type:video](./_videos/ELM for Medical Devices Act 3-final.mp4)
@@ -74,6 +76,7 @@ The video below illustrates how this Act of the ELM demonstration can be perform
 
     The ELM Platform allows for automatic generation of federated documentation. Here we have a link to an automatically generated document that combines both of those analyses into a Risk Management File.
 
+<!--
 1. Click the **4812** requirement link in the **Satisfied By** column.
 
 ![](_attachments/Req4812.png)
@@ -218,6 +221,6 @@ In a real project, all requirements would be checked and fixed before creating a
 
 31. Click the **collapsed left-hand sidebar** to expand and reveal the **Views** panel.
 
-![](_attachments/ExpandViewsPanel.png)
+![](_attachments/ExpandViewsPanel.png) -->
 
 Next, examine the **Review** process in ELM.

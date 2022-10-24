@@ -101,13 +101,13 @@ Engineering Test Management (ETM) provides a collaborative hub for systems and s
 
 ![](_attachments/PD-STP-sidebar-5.png)
 
-25. Click **Test Case Results** in the sidebar and explore the page.
-
-![](_attachments/PD-STP-sidebar-6.png)
-
-26. Click **Formal Review** in the sidebar and explore the page.
+25. Click **Formal Review** in the sidebar and explore the page.
 
 ![](_attachments/PD-STP-sidebar-7.png)
+
+26. Click **Test Case Results** in the sidebar and explore the page.
+
+![](_attachments/PD-STP-sidebar-6.png)
 
 27. Notice the test has a test script called **Maximum Flow Rate Test**.
 

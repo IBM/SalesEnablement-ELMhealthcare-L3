@@ -57,25 +57,23 @@ The **Infusion Pump** demonstration dashboard is built of many different **widge
 ??? tip "Birds-eye view"
    ![](_attachments/Dashboard-MiniDashboard.png)
 
-11. Click the **X** button in the **IBM Engineering Requirements** widget in the **Mini Dashboard**.
+11. Click the **Log in** button in the **IBM Engineering Requirements XXXX** widget in the **Mini Dashboard**.
 
-Note, if the widget does not exist, skip this step and the next step.
+![](_attachments/SignInMiniDashboard.png)
 
-![](_attachments/BrokenWidgetInMiniDashboard.png)
+A new browser tab will open.
 
-12. Click the **OK** button on the confirmation window.
+12. Click the **Sign in** button.
 
-![](_attachments/ConfirmWidgetRemoval.png)
-
-<!-- The **Username** and **Password** fields are pre-populated with the **susanreq** ID and password. Do not change these fields.
+The **Username** and **Password** fields are pre-populated with the **susanreq** ID and password. Do not change these fields.
 
 ![](_attachments/LoginMiniDashboards.png)
 
 13. Close the web browser tab that was opened.
 
-![](_attachments/CloseBrowserTab.png) -->
+![](_attachments/CloseBrowserTab.png)
 
-13. Click anywhere on dashboard to hide the **Mini Dashboard**.
+14. Click anywhere on dashboard to hide the **Mini Dashboard**.
 
 ![](_attachments/CompleteDashboard.png)
 
