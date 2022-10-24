@@ -626,6 +626,7 @@
 
   <h1>Requirements Quality Assistant</h1>
 
+<p>At this time, the Requirements Quality Assistant (RQA) backend service used by this demonstration environment is no longer available. Please review the video below to learn about RQA and then proceed to the next chapter.</p>
 <p>The video below illustrates how this Act of the ELM demonstration can be performed for a client.</p>
 <p><div class="video-container"><iframe src="../_videos/ELM%20for%20Medical%20Devices%20Act%203-final.mp4" style="position: relative; width: 100%; height: 22.172vw" frameborder="0" allowfullscreen></iframe></div></p>
 <details class="quote">
@@ -667,147 +668,153 @@ This view filters the document to show only System Requirements and also adds co
 <p>Back on our Project Dashboard, let's now select Operational Hazard Analysis. That analysis is performed in much the same way as FMEA with the major difference being that these hazards are the result of user error rather than device failure.</p>
 <p>The ELM Platform allows for automatic generation of federated documentation. Here we have a link to an automatically generated document that combines both of those analyses into a Risk Management File.</p>
 </details>
-<ol>
-<li>Click the <strong>4812</strong> requirement link in the <strong>Satisfied By</strong> column.</li>
-</ol>
-<p><img alt="" src="../_attachments/Req4812.png" /></p>
-<ol start="2">
-<li>Click the <strong>3. Up and Downstream Satisfaction</strong> in the <strong>Views</strong> panel.</li>
-</ol>
-<p><img alt="" src="../_attachments/Views-3UpAndDownstream.png" /></p>
-<p>Now use Requirements Quality Assistant (RQA) to check the quality of the requirements. RQA can populate the scores returned and the reasons for any low scores as attributes in the module. For these attributes to be populated, the module must be writable and so you will start by creating a <strong>change set</strong>.</p>
-<p>A <strong>change set</strong> allows a team to manage the impact of changes and ensures that changes are only made with the appropriate approvals, and that those changes are properly documented. Typically, this option is enabled when the project reaches a milestone and/or stable state.</p>
-<ol start="3">
-<li>Click the <strong>current context button</strong> at top right of header bar.</li>
-</ol>
-<p><img alt="" src="../_attachments/CurrentContextButton.png" /></p>
-<details class="info">
-<summary>Birds-eye view</summary>
-<p><img alt="" src="../_attachments/CurrentContextButton-BEV.png" /></p>
-</details>
-<ol start="4">
-<li>Click <strong>Create Change Set...</strong>.</li>
-</ol>
-<p><img alt="" src="../_attachments/CreateChangeSetButton.png" /></p>
-<ol start="5">
-<li>Enter <strong>Checking Requirements Quality</strong> in the <strong>Name</strong> text entry field.</li>
-</ol>
-<p><img alt="" src="../_attachments/ChangeSetName.png" /></p>
-<ol start="6">
-<li>Click the <strong>Create</strong> button.</li>
-</ol>
-<p><img alt="" src="../_attachments/ChangeSetNameCreate.png" /></p>
-<ol start="7">
-<li>Click the <strong>current context button</strong> and verify the current change set is <strong>Checking Requirements Quality</strong>.</li>
-</ol>
-<p><img alt="" src="../_attachments/VerifyChangeSet.png" /></p>
-<ol start="8">
-<li>Click the <strong>Mini Dashboard</strong> <img alt="" src="../_attachments/MiniDashboardIcon.png" /> icon.</li>
-</ol>
-<p><img alt="" src="../_attachments/MiniDashboard.png" /></p>
-<ol start="9">
-<li>Click the <strong>Pin</strong> <img alt="" src="../_attachments/PinIcon.png" /> icon to keep the <strong>Mini Dashboard</strong> open.</li>
-</ol>
-<p><img alt="" src="../_attachments/PinMiniDashboard.png" /></p>
-<ol start="10">
-<li>Click the <strong>9. RQA</strong> link in the <strong>Views</strong> panel.</li>
-</ol>
-<p><img alt="" src="../_attachments/ViewsRQA.png" /></p>
-<p>Take notice of the columns in the RQA view: <strong>RQA Score</strong> and <strong>Issues Found by RQA</strong>.</p>
-<ol start="11">
-<li>Hover the mouse between the <strong>Views</strong> panel and the table of <strong>Requirements</strong>, and click the <strong>double arrow</strong> <img alt="" src="../_attachments/DoubleArrows.png" /> icon in the sidebar to collapse both the left and right-hand sidebars.</li>
-</ol>
-<p><img alt="" src="../_attachments/HideSideBars.png" /></p>
-<ol start="12">
-<li>Click the <strong>checkbox</strong> next to the <strong>first requirement</strong>.</li>
-</ol>
-<p><img alt="" src="../_attachments/SelectFirstRequirement.png" /></p>
-<ol start="13">
-<li>Scroll down to bottom of list, hold down the <strong>Shift</strong> key, and click the <strong>checkbox</strong> for the <strong>last requirement</strong> to select all the requirements.</li>
-</ol>
-<p><img alt="" src="../_attachments/SelectAllRequirements.png" /></p>
-<ol start="14">
-<li>Click the <strong>Check selected</strong> button in the RQA panel of the <strong>Mini Dashboard</strong>.</li>
-</ol>
-<p><img alt="" src="../_attachments/CheckSelected.png" /></p>
-<p>It will take a few seconds for the RQA scoring to complete.</p>
-<ol start="15">
-<li>Drag the right-hand side of the <strong>Mini Dashboard</strong> to the right to expand it.</li>
-</ol>
-<p><img alt="" src="../_attachments/DragMiniDashboard.png" /></p>
-<ol start="16">
-<li>Notice the scores returned have been recorded as attributes and the reason for any low scores.</li>
-</ol>
-<p><img alt="" src="../_attachments/RQAScores.png" /></p>
-<ol start="17">
-<li>Click the <strong>5107</strong> requirement in the <strong>RQA panel</strong> of the <strong>Mini Dashboard</strong>.</li>
-</ol>
-<p><img alt="" src="../_attachments/Req5107.png" /></p>
-<div class="admonition warning">
-<p class="admonition-title">Warning</p>
-<p>The RQA team releases a new version every 2 weeks. It is impossible to keep training material up to date with that schedule. The scores returned by RQA may therefore be completely different than the ones recorded in this document. If this is the case, then skip fixing the requirement below and discard the change set.</p>
-</div>
-<ol start="18">
-<li>Click <strong>Show details</strong> under the <strong>5107 requirement</strong>.</li>
-</ol>
-<p><img alt="" src="../_attachments/Req5107ShowDetails.png" /></p>
-<ol start="19">
-<li>In the main table, <strong>Double-click</strong> inside the text of the <strong>5107 requirement</strong> to edit it.</li>
-</ol>
-<p><img alt="" src="../_attachments/Req5107Text.png" /></p>
-<ol start="20">
-<li>Delete the text <strong>in a clear manner</strong> and click away from the requirement to apply the change.</li>
-</ol>
-<p><img alt="" src="../_attachments/Req5107RemoveText.png" /></p>
-<p><img alt="" src="../_attachments/Req5107RemovedText.png" /></p>
-<p>Now that the ambiguity of the requirement is removed, recheck the modified artifact.</p>
-<ol start="21">
-<li>Click the <strong>recheck</strong> <img alt="" src="../_attachments/RecheckIcon.png" /> icon in the <strong>RQA panel</strong> of the <strong>Mini Dashboard</strong> for the updated requirement.</li>
-</ol>
-<p><img alt="" src="../_attachments/Req5107Recheck.png" /></p>
-<ol start="22">
-<li>Notice the <strong>5107 requirement</strong> now scores a 100.</li>
-</ol>
-<p><img alt="" src="../_attachments/Req5107Rescored.png" /></p>
-<p>Checking the requirements for quality is not a replacement for a review; rather an enhancement. Checing and fixing quality before going into a review means that domain experts can spend their valuable time reviewing the intent of the requirement rather than wasting time on poorly written requirements.</p>
-<p>In a real project, all requirements would be checked and fixed before creating a baseline and moving into a review cycle. For this demonstration environment, the changes will be discarded.</p>
-<ol start="23">
-<li>Click the <strong>Pin</strong> <img alt="" src="../_attachments/PinIcon2.png" /> to collapse the <strong>Mini Dashboard</strong>&gt;</li>
-</ol>
-<p><img alt="" src="../_attachments/CollapseDashboard.png" /></p>
-<ol start="24">
-<li>Click away from the <strong>Mini Dashboard</strong> so it slides back in place.</li>
-<li>Click the <strong>current context button</strong>.</li>
-</ol>
-<p><img alt="" src="../_attachments/CurrentContextButton.png" /></p>
-<ol start="26">
-<li>Click <strong>Discard Change Set...</strong>.</li>
-</ol>
-<p><img alt="" src="../_attachments/DiscardCurrentChangeSet.png" /></p>
-<ol start="27">
-<li>Click the <strong>Discard the Change Set</strong> button.</li>
-</ol>
-<p><img alt="" src="../_attachments/DiscardCurrentChangeSetButton.png" /></p>
-<div class="admonition important">
-<p class="admonition-title">Important</p>
-<p>Creating a change set moves the context out of the base global configuration into a personal stream (Susan's in this environment). Discarding (or delivering) the change set does not return to the base global configuration – one must switch back to the base ‘variant’ of the product using the favorites menu.</p>
-</div>
-<ol start="28">
-<li>Click the <strong>current context button</strong>.</li>
-</ol>
-<p><img alt="" src="../_attachments/CurrentContextButton.png" /></p>
-<ol start="29">
-<li>Click the <strong>dropdown</strong> button to see the recently used and favorite configurations.</li>
-</ol>
-<p><img alt="" src="../_attachments/CurrentContextSwitch.png" /></p>
-<ol start="30">
-<li>Click the <strong>Infusion Pump Base</strong> global stream.</li>
-</ol>
-<p><img alt="" src="../_attachments/GlobalStream.png" /></p>
-<ol start="31">
-<li>Click the <strong>collapsed left-hand sidebar</strong> to expand and reveal the <strong>Views</strong> panel.</li>
-</ol>
-<p><img alt="" src="../_attachments/ExpandViewsPanel.png" /></p>
+<!--
+1. Click the **4812** requirement link in the **Satisfied By** column.
+
+![](_attachments/Req4812.png)
+
+2. Click the **3. Up and Downstream Satisfaction** in the **Views** panel.
+
+![](_attachments/Views-3UpAndDownstream.png)
+
+Now use Requirements Quality Assistant (RQA) to check the quality of the requirements. RQA can populate the scores returned and the reasons for any low scores as attributes in the module. For these attributes to be populated, the module must be writable and so you will start by creating a **change set**.
+
+A **change set** allows a team to manage the impact of changes and ensures that changes are only made with the appropriate approvals, and that those changes are properly documented. Typically, this option is enabled when the project reaches a milestone and/or stable state.
+
+3. Click the **current context button** at top right of header bar.
+
+![](_attachments/CurrentContextButton.png)
+
+??? info "Birds-eye view"
+    ![](_attachments/CurrentContextButton-BEV.png)
+
+4. Click **Create Change Set...**.
+
+![](_attachments/CreateChangeSetButton.png)
+
+5. Enter **Checking Requirements Quality** in the **Name** text entry field.
+
+![](_attachments/ChangeSetName.png)
+
+6. Click the **Create** button.
+
+![](_attachments/ChangeSetNameCreate.png)
+
+7. Click the **current context button** and verify the current change set is **Checking Requirements Quality**.
+
+![](_attachments/VerifyChangeSet.png)
+
+8. Click the **Mini Dashboard** ![](_attachments/MiniDashboardIcon.png) icon.
+
+![](_attachments/MiniDashboard.png)
+
+9. Click the **Pin** ![](_attachments/PinIcon.png) icon to keep the **Mini Dashboard** open.
+
+![](_attachments/PinMiniDashboard.png)
+
+10. Click the **9. RQA** link in the **Views** panel.
+
+![](_attachments/ViewsRQA.png)
+
+Take notice of the columns in the RQA view: **RQA Score** and **Issues Found by RQA**.
+
+11. Hover the mouse between the **Views** panel and the table of **Requirements**, and click the **double arrow** ![](_attachments/DoubleArrows.png) icon in the sidebar to collapse both the left and right-hand sidebars.
+
+![](_attachments/HideSideBars.png)
+
+12. Click the **checkbox** next to the **first requirement**.
+
+![](_attachments/SelectFirstRequirement.png)
+
+13. Scroll down to bottom of list, hold down the **Shift** key, and click the **checkbox** for the **last requirement** to select all the requirements.
+
+![](_attachments/SelectAllRequirements.png)
+
+14. Click the **Check selected** button in the RQA panel of the **Mini Dashboard**.
+
+![](_attachments/CheckSelected.png)
+
+It will take a few seconds for the RQA scoring to complete.
+
+15. Drag the right-hand side of the **Mini Dashboard** to the right to expand it.
+
+![](_attachments/DragMiniDashboard.png)
+
+16. Notice the scores returned have been recorded as attributes and the reason for any low scores.
+
+![](_attachments/RQAScores.png)
+
+17. Click the **5107** requirement in the **RQA panel** of the **Mini Dashboard**.
+
+![](_attachments/Req5107.png)
+
+!!! warning
+    The RQA team releases a new version every 2 weeks. It is impossible to keep training material up to date with that schedule. The scores returned by RQA may therefore be completely different than the ones recorded in this document. If this is the case, then skip fixing the requirement below and discard the change set.
+
+18. Click **Show details** under the **5107 requirement**.
+
+![](_attachments/Req5107ShowDetails.png)
+
+19. In the main table, **Double-click** inside the text of the **5107 requirement** to edit it.
+
+![](_attachments/Req5107Text.png)
+
+20. Delete the text **in a clear manner** and click away from the requirement to apply the change.
+
+![](_attachments/Req5107RemoveText.png)
+
+![](_attachments/Req5107RemovedText.png)
+
+Now that the ambiguity of the requirement is removed, recheck the modified artifact.
+
+21. Click the **recheck** ![](_attachments/RecheckIcon.png) icon in the **RQA panel** of the **Mini Dashboard** for the updated requirement.
+
+![](_attachments/Req5107Recheck.png)
+
+22. Notice the **5107 requirement** now scores a 100.
+
+![](_attachments/Req5107Rescored.png)
+
+Checking the requirements for quality is not a replacement for a review; rather an enhancement. Checing and fixing quality before going into a review means that domain experts can spend their valuable time reviewing the intent of the requirement rather than wasting time on poorly written requirements.
+
+In a real project, all requirements would be checked and fixed before creating a baseline and moving into a review cycle. For this demonstration environment, the changes will be discarded.
+
+23. Click the **Pin** ![](_attachments/PinIcon2.png) to collapse the **Mini Dashboard**>
+
+![](_attachments/CollapseDashboard.png)
+
+24. Click away from the **Mini Dashboard** so it slides back in place.
+25. Click the **current context button**.
+
+![](_attachments/CurrentContextButton.png)
+
+26. Click **Discard Change Set...**.
+
+![](_attachments/DiscardCurrentChangeSet.png)
+
+27. Click the **Discard the Change Set** button.
+
+![](_attachments/DiscardCurrentChangeSetButton.png)
+
+!!! important "Important"
+    Creating a change set moves the context out of the base global configuration into a personal stream (Susan's in this environment). Discarding (or delivering) the change set does not return to the base global configuration – one must switch back to the base ‘variant’ of the product using the favorites menu.
+
+28. Click the **current context button**.
+
+![](_attachments/CurrentContextButton.png)
+
+29. Click the **dropdown** button to see the recently used and favorite configurations.
+
+![](_attachments/CurrentContextSwitch.png)
+
+30. Click the **Infusion Pump Base** global stream.
+
+![](_attachments/GlobalStream.png)
+
+31. Click the **collapsed left-hand sidebar** to expand and reveal the **Views** panel.
+
+![](_attachments/ExpandViewsPanel.png) -->
+
 <p>Next, examine the <strong>Review</strong> process in ELM.</p>
 
 
