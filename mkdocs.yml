@@ -85,35 +85,3 @@ extra:
     windowsServerAdminPW: ""
     elmUserID: "Susan"
     adminPW: "il0vedem0s"
-
-
-# #  account: "2435442 - ITZ - Satellite"
-#   account: "2305900 - ITZ - ADHOC03"
-#   powerVS:
-#     serviceInstanceName: "PowerVS-L3-service"
-#     serviceInstanceRG: "PowerVS-L3"
-#     serviceInstanceLocation: "Dallas"
-#     placementGroup1: "AffinityGroup"
-#     placementGroup2: "AntiAffinityGroup"
-#     sshKey: "PowerVS-key"
-#   aixServer1:
-#     name: "AIX-vm-1"
-#     privateIP: "192.168.130.110"
-#     publicIP: "52.117.41.110"
-#     additonalVolumeName: "aix-volume-1"
-#   aixServer2:
-#     name: "AIX-vm-2"
-#     privateIP: "192.168.130.106"
-#     publicIP: "52.117.41.106"
-#     additonalVolumeName: "aix-volume-2"
-#   rhServer1:
-#     name: "RH-vm-1"
-#     privateIP: "192.168.130.107"
-#     publicIP: "52.117.41.107"
-#     additonalVolumeName: "rh-volume-1-39907-1"
-#     additonalVolumeName2: "rh-volume-1-39907-2"
-#   rhServer2:
-#     name: "RH-vm-2"
-#     privateIP: "192.168.130.108"
-#     publicIP: "52.117.41.108"
-#     additonalVolumeName: "rh-volume-2"
