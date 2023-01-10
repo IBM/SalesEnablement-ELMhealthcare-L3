@@ -1,18 +1,18 @@
-The following steps must be performed before delivering the demonstration. These steps should be performed several minutes prior to starting an actual client demonstration, as the software services used take a few minutes to start and enter a ready state.
+The following steps must be performed before delivering the demonstration. These steps should be performed prior to starting an actual client demonstration, as the software services used take a few minutes to start and enter a ready state.
 
-## Prepare the browser-based web client
+## Access the ELM virtual server in IBM Technology Zone
 
-1. Using either the IBM Technolog Zone (ITZ) email with the subject **Your environment is ready** or the ITZ reservation details page, find and copy the **Remote Desktop Connection** field which will be in the format **host:port**.
+1. Using either the IBM Technology Zone (ITZ) email with the subject **Your environment is ready** or the ITZ reservation details page, find and copy the **Remote Desktop Connection** field which will be in the format **host:port**.
 
-??? E-mail example of **Your environment is ready**
+!!! info E-mail example of **Your environment is ready**
     ![](_attachments/ITZ-email-Ready.png)
 
-??? ITZ reservation details page
+!!! info ITZ reservation details page
     ![](_attachments/ITZ-ReservationPage-Ready.png)  
 
 2. Open the **Microsoft Remote Desktop** application on your local machine.
 
-Note: the Microsoft Remote Desktop images shown below were captured using a Mac running MacOS. These instructions will be updated in near furture to show images using Microsoft Windows in the near future.
+Note: the Microsoft Remote Desktop images shown below were captured using a Mac running MacOS. These instructions will be updated in near future to show images using Microsoft Windows in the near future.
 
 3. Click the **+** button at top left and then click **Add PC**.
 
@@ -26,7 +26,7 @@ Note: the Microsoft Remote Desktop images shown below were captured using a Mac 
 
 6. Double click the **PC name** item in the table.
 
-![](_attachments/MsRD-PCList.png))
+![](_attachments/MsRD-PCList.png)
 
 7. Enter **Administrator** in the **Username** field and **{{tz_environment.adminPW}}** in the Password field.
 
@@ -73,11 +73,6 @@ Wait until the VM changes from **Busy** to **Running** before proceeding.
 
 ![](_attachments/ChromeBookmark.png)
 
-
-
-
-
-
 <!-- !!! important
     All user names and passwords have been cached in the Chrome browser. This demonstration uses the **susan** user ID. If the password is not autopopulated, use **susan** as the password. -->
 
@@ -88,11 +83,11 @@ Wait until the VM changes from **Busy** to **Running** before proceeding.
 
 13. Click the **Log In** button.
 
-The **Infusion Pump** demonstration dashboard is built using many different **widgets** as seen in the image below. When first loaded, some of the widgets may return an error (e.g. Error 400). This is expected and the next steps should fix the problems. These issues are believed to be caused by some artifact type models not being updated with some applications when the server is restarted. There is a periodic renewal every 12 hours, but who wants to wait that long. The following sections should resolve the issues.  Perform only the tasks required for widgets that are not loading properly.
+The **Infusion Pump** demonstration dashboard is built using many different **widgets** as seen in the image below. When first loaded, some of the widgets may return an error (e.g. Error 400). This is expected and the next steps should fix the problems. These issues are believed to be caused by some artifact type models not being updated with some applications when the server is restarted. There is a periodic renewal every 12 hours, but who wants to wait that long. The following sections should resolve the issues. Perform only the tasks required for widgets that are not loading properly.
 
-## Error with **Infuxion pump Systems REquirements to Test...** widget on **General** tab
+## Error with **Infusion pump Systems REquirements to Test...** widget on **General** tab
 
-If the **Infusion pump Systems RSquirements to Test...** widget is showing an error, perform the following steps.
+If the **Infusion pump Systems Requirements to Test...** widget is showing an error, perform the following steps.
 
 ![](_attachments/WidgetErrors-SysReq.png)
 
@@ -153,7 +148,7 @@ The **Problem Tracker** widget should now be loaded properly. Click the browser'
 
 ## Error with **Satisfied by Partial Coverage Analysis** widget on **General** tab
 
-The **Satisfied by Partial Coverage Analysis** widget may innitially show an error like below.
+The **Satisfied by Partial Coverage Analysis** widget may initially show an error like below.
 
 ![](_attachments/WidgetErrors-SatisfiedByPartial.png)
 
@@ -191,15 +186,16 @@ Note, if the widget does not exist, skip this step and the next step.
 
 13. Close the web browser tab that was opened.
 
-![](_attachments/CloseBrowserTab.png) -->
+![](_attachments/CloseBrowserTab.png)
 
 13. Click anywhere on dashboard to hide the **Mini Dashboard**.
 
 ![](_attachments/CompleteDashboard.png) -->
 
-<!-- At this point the **Infusion Pump** dashboard should be fully loaded with out errors. If not, wait a minute and click the browser refresh icon ![](_attachments/ChromeRefresh.png). Repeat if necessary. -->
-To fix the broken widgets, slowly click through each of the **Infusion Pump Requirements Project Dashboard's** tabs. If after returning to the **General** tab the widget at far right is still reporting an error, try clicking the browser's refresh/reload button. Repeat this process a couple of times. The errors should resolve and data will appear in those widgets.
+At this point the **Infusion Pump** dashboard should be fully loaded with out errors. If not, wait a minute and click the browser refresh icon ![](_attachments/ChromeRefresh.png). Repeat if necessary.
 
-![](_attachments/WidgetError2.png)
+<!-- To fix the broken widgets, slowly click through each of the **Infusion Pump Requirements Project Dashboard's** tabs. If after returning to the **General** tab the widget at far right is still reporting an error, try clicking the browser's refresh/reload button. Repeat this process a couple of times. The errors should resolve and data will appear in those widgets.
+
+![](_attachments/WidgetError2.png) -->
 
 In **Act 1**, begin the journey to learn how to demonstrate IBM Engineering Lifecycle Management (ELM). Note, this is not a deep dive into IBM ELM, rather a brief overview of some of the major capabilities and benefits.
