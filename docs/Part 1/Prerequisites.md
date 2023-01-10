@@ -10,7 +10,7 @@ Click the **Get**  button and then click the **Open** button after the install c
 
 ## Microsoft Windows users
 
-The Microsoft Remote Desktop application should already be available on the Windows operating sytem, but if it is not, it can be installed from the Microsoft Store. A good tutorial on using the REmote Desktop application can be found <a href="https://www.windowscentral.com/how-use-remove-desktop-app-connect-pc-windows-10-0" target="_blank">here</a>.
+The Microsoft Remote Desktop application should already be available on the Windows operating system, but if it is not, it can be installed from the Microsoft Store. A good tutorial on using the Remote Desktop application can be found <a href="https://www.windowscentral.com/how-use-remove-desktop-app-connect-pc-windows-10-0" target="_blank">here</a>.
 
 ## Linux users
 
