@@ -20,7 +20,7 @@
 
 There are many similarities between **operational hazard analysis** and **Failure Modes and Effects (FMEA)**. Both examine functions, failure ‘modes’ (equipment failures or incorrect operations), effects, and causes. The primary difference is that operational hazard analysis focuses on what could go wrong if the device is not used correctly. FMEA focuses on identification of potential hazards in the design. Additionally, a hazard analysis focuses solely on safety hazards, whereas the scope of an FMEA covers safety as well as performance, quality, and reliability.
 
-6. Click the **FEMA** tab.
+6. Click the **FMEA** tab.
 
 ![](_attachments/DashboardTabsFEMA.png)
 

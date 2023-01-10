@@ -1,4 +1,9 @@
+STOP! THIS GUIDE IS BEING UPDATED TO REFLECT CHANGES TO THE NEW ELM VMWARE IMAGE RUNNING IN IBM TECHNOLOGY ZONE.  PLEASE DO NOT PROCEED UNTIL THIS MESSAGE HAS BEEN REMOVED FROM THIS GUIDE. TARGET DATE FOR THE UPDATE IS 01/13/2023. 
+
+
 Welcome to the {{learningplan.name}} demonstration guide! The goal of this demonstration guide is to provide sellers and technical sellers from IBM and Business Partners with the knowledge and tools to perform hands-on demonstrations of {{offering.name}}. Throughout this demonstration guide {{offering.name}} will be referred to as ELM.
+
+Please read this page, the Introduction, Prerequisites, and Demo Preparation pages in their entirety! Failing to do so will make completing this demonstration guide difficult to complete.
 
 While everyone is encouraged to complete all sections of the demonstration guide, actual completion requirements vary by role:
 
