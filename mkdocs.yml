@@ -15,7 +15,7 @@ nav:
   - Introduction: 'index.md'
   - Overview:
     - 'The Demonstration': 'Part 1/01 Introduction.md'
-    - 'Prerequisites': 'Prerequisites.md'
+    - 'Prerequisites': 'Part 1/Prerequisites.md'
     - 'Demonstration Environment Preparation': 'Part 1/02 DemoPreparation.md'
   - Act 1:
     - 'Design Planning': 'Part 2/01 DesignPlanning.md'

@@ -84,7 +84,7 @@ Wait until the VM changes from **Busy** to **Running** before proceeding.
 12. In the **Log in** dialog, enter **susan** for the User ID (all lower case) and **susan** for the Password.
 
 <!-- ![](_attachments/SelectUser.png) -->
-![](_attaachments/SusanLogin.png)
+![](_attachments/SusanLogin.png)
 
 13. Click the **Log In** button.
 
