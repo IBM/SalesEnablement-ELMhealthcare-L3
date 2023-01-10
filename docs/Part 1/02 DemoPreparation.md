@@ -81,6 +81,11 @@ Wait until the VM changes from **Busy** to **Running** before proceeding.
 <!-- ![](_attachments/SelectUser.png) -->
 ![](_attachments/SusanLogin.png)
 
+??? error Pop warning
+    In some instances the Chrome browser may issue a warning that a pop window was blocked. If this occurs, simply click the the **Login** link to allow the popup.
+
+    ![](_attachments/ChromePopUpBlocker.png)
+
 13. Click the **Log In** button.
 
 The **Infusion Pump** demonstration dashboard is built using many different **widgets** as seen in the image below. When first loaded, some of the widgets may return an error (e.g. Error 400). This is expected and the next steps should fix the problems. These issues are believed to be caused by some artifact type models not being updated with some applications when the server is restarted. There is a periodic renewal every 12 hours, but who wants to wait that long. The following sections should resolve the issues. Perform only the tasks required for widgets that are not loading properly.
@@ -142,7 +147,7 @@ If the **Problem Tracker** widget is showing an error, perform the following ste
 
 ![](_attachments/WidgetErrors-ProblemTracker-Refresh.png)
 
-The **Problem Tracker** widget should now be loaded properly. Click the browser's back button to return to the dashboard.
+The **Problem Tracker** widget should now be loaded properly. A second refresh may be required in some instances. Click the browser's back button to return to the dashboard.
 
 ![](_attachments/WidgetErrors-ProblemTracker-Reloaded.png)
 
@@ -161,9 +166,6 @@ If the previous errors have been fixed, the following will likely be seen:
 ![](_attachments/WidgetErrors-SatisfiedByPartial3-OK.png)
 
 If this does not resolve the issue, click the **Satisfied By Partial Coverage Analysis** widget label and then click the widget refresh button like in the previous fix for the **Problem Tracker** widget.
-
-
-
 
 <!-- 10. Click the **Mini Dashboard** icon ![](_attachments/MiniDashboardIcon.png) at top left of the **Infusion Pump** dashboard.
 
@@ -192,10 +194,12 @@ Note, if the widget does not exist, skip this step and the next step.
 
 ![](_attachments/CompleteDashboard.png) -->
 
-At this point the **Infusion Pump** dashboard should be fully loaded with out errors. If not, wait a minute and click the browser refresh icon ![](_attachments/ChromeRefresh.png). Repeat if necessary. If individual widget on other tabs do not load or show an error, try the same steps as performed on the **Problem Tracker** widget.
+At this point the **Infusion Pump** dashboard should be fully loaded with out errors. If not, wait a minute and click the browser refresh icon ![](_attachments/ChromeRefresh.png). Repeat if necessary. If individual widgets on other tabs do not load or show an error, try the same steps as performed on the **Problem Tracker** widget. In testing, the others ones that typically need to be refreshed are the **FMEA** widget on the **FMEA** tab and all the widgets on the **Design Validation** tab (clicking the refresh button at the top right multiple times will typically get the widgets to complete the loading process).
 
 <!-- To fix the broken widgets, slowly click through each of the **Infusion Pump Requirements Project Dashboard's** tabs. If after returning to the **General** tab the widget at far right is still reporting an error, try clicking the browser's refresh/reload button. Repeat this process a couple of times. The errors should resolve and data will appear in those widgets.
 
 ![](_attachments/WidgetError2.png) -->
+
+Note: if a reboot of the virtual machine occurs, the above steps will need to be repeated.
 
 In **Act 1**, begin the journey to learn how to demonstrate IBM Engineering Lifecycle Management (ELM). Note, this is not a deep dive into IBM ELM, rather a brief overview of some of the major capabilities and benefits.
