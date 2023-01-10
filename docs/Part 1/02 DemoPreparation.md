@@ -74,7 +74,7 @@ Wait until the VM changes from **Busy** to **Running** before proceeding.
 ![](_attachments/ChromeBookmark.png)
 
 <!-- !!! important
-    All user names and passwords have been cached in the Chrome browser. This demonstration uses the **susan** user ID. If the password is not autopopulated, use **susan** as the password. -->
+    All user names and passwords have been cached in the Chrome browser. This demonstration uses the **susan** user ID. If the password is not auto populated, use **susan** as the password. -->
 
 12. In the **Log in** dialog, enter **susan** for the User ID (all lower case) and **susan** for the Password.
 
@@ -192,7 +192,7 @@ Note, if the widget does not exist, skip this step and the next step.
 
 ![](_attachments/CompleteDashboard.png) -->
 
-At this point the **Infusion Pump** dashboard should be fully loaded with out errors. If not, wait a minute and click the browser refresh icon ![](_attachments/ChromeRefresh.png). Repeat if necessary.
+At this point the **Infusion Pump** dashboard should be fully loaded with out errors. If not, wait a minute and click the browser refresh icon ![](_attachments/ChromeRefresh.png). Repeat if necessary. If individual widget on other tabs do not load or show an error, try the same steps as performed on the **Problem Tracker** widget.
 
 <!-- To fix the broken widgets, slowly click through each of the **Infusion Pump Requirements Project Dashboard's** tabs. If after returning to the **General** tab the widget at far right is still reporting an error, try clicking the browser's refresh/reload button. Repeat this process a couple of times. The errors should resolve and data will appear in those widgets.
 
