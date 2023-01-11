@@ -24,15 +24,15 @@ Follow one of the sections below to make the initial connection to the VMware im
 
 4. On the **Display** settings page specify a resolution that works best for the user. 
 
+Try 1600 x1200. This may take a few tries to find one that works best for each users monitor.
+
 ![](_attachments/browserRD-DisplaySettings.png) 
 
 5. Click the **Keep changes** button.
 
 ![](_attachments/browserRD-KeepSettings.png) 
 
-Try 1600 x1200. This may take a few tries to find one that works best for each users monitor.
-
-Once satisfied with the display settings, proceed to the **Demo Preparation** chapter.
+Once satisfied with the display settings, proceed to the [**Demonstration Environment Preparation**](02%20DemoPreparation.md) chapter.
 
 ## Remote Desktop for MacOS
 
@@ -51,8 +51,6 @@ Click the **Get**  button and then click the **Open** button after the install c
     ![](_attachments/ITZ-ReservationPage-Ready.png)  
 
 2. Open the **Microsoft Remote Desktop** application on your local machine.
-
-Note: the Microsoft Remote Desktop images shown below were captured using a Mac running MacOS. These instructions will be updated in near future to show images using Microsoft Windows in the near future.
 
 3. Click the **+** button at top left and then click **Add PC**.
 
@@ -80,7 +78,7 @@ Note: the password contains two zero's and no capital Os.
 
 ![](_attachments/MsRD-Cert.png)
 
-Proceed to the **Demo Preparation** chapter.
+Proceed to the [**Demonstration Environment Preparation**](02%20DemoPreparation.md) chapter.
 
 ## Remote Desktop for Microsoft Windows
 
@@ -134,11 +132,10 @@ Note: the password contains two zero's and no capital Os.
 
 ![](_attachments/image09-credentials-entered.png)
 
-8. Click the **Connect** button.
+10. Click the **Connect** button.
 
-9. Check the **Don't ask about this certificate again** checkbox and then click **Connect anyway** on the **Accept certificate and connect** dialog.
+11. Check the **Don't ask about this certificate again** checkbox and then click **Connect anyway** on the **Accept certificate and connect** dialog.
 
 ![](_attachments/image11-accept-certificate-with-dont-ask-checked.png)
 
-Proceed to the **Demo Preparation** chapter.
-
+Proceed to the [**Demonstration Environment Preparation**](02%20DemoPreparation.md) chapter.
