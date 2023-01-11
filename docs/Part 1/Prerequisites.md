@@ -44,10 +44,10 @@ Click the **Get**  button and then click the **Open** button after the install c
 
 1. Using either the IBM Technology Zone (ITZ) email with the subject **Your environment is ready** or the ITZ reservation details page, find and copy the **Remote Desktop Connection** field which will be in the format **host:port**.
 
-!!! info E-mail example of **Your environment is ready**
+??? info "E-mail example of **Your environment is ready**"
     ![](_attachments/ITZ-email-Ready.png)
 
-!!! info ITZ reservation details page
+??? info "ITZ reservation details page"
     ![](_attachments/ITZ-ReservationPage-Ready.png)  
 
 2. Open the **Microsoft Remote Desktop** application on your local machine.
@@ -92,10 +92,10 @@ Click the **Get** button.
 
 1. Using either the IBM Technology Zone (ITZ) email with the subject **Your environment is ready** or the ITZ reservation details page, find and copy the **Remote Desktop Connection** field which will be in the format **host:port**.
 
-!!! info E-mail example of **Your environment is ready**
+??? info "E-mail example of **Your environment is ready**"
     ![](_attachments/ITZ-email-Ready.png)
 
-!!! info ITZ reservation details page
+??? info "ITZ reservation details page"
     ![](_attachments/ITZ-ReservationPage-Ready.png)  
 
 2. Open the **Microsoft Remote Desktop** application on your local machine.
