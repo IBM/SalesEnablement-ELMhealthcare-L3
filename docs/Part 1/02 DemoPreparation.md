@@ -2,43 +2,7 @@ The following steps must be performed before delivering the demonstration. These
 
 ## Access the ELM virtual server in IBM Technology Zone
 
-1. Using either the IBM Technology Zone (ITZ) email with the subject **Your environment is ready** or the ITZ reservation details page, find and copy the **Remote Desktop Connection** field which will be in the format **host:port**.
 
-!!! info E-mail example of **Your environment is ready**
-    ![](_attachments/ITZ-email-Ready.png)
-
-!!! info ITZ reservation details page
-    ![](_attachments/ITZ-ReservationPage-Ready.png)  
-
-2. Open the **Microsoft Remote Desktop** application on your local machine.
-
-Note: the Microsoft Remote Desktop images shown below were captured using a Mac running MacOS. These instructions will be updated in near future to show images using Microsoft Windows in the near future.
-
-3. Click the **+** button at top left and then click **Add PC**.
-
-![](_attachments/MsRD.png)
-
-4. Paste the **host:port** information from step 1 into the **PC name:** field.
-
-![](_attachments/MsRD-PCName.png)
-
-5. Click the **Add** button.
-
-6. Double click the **PC name** item in the table.
-
-![](_attachments/MsRD-PCList.png)
-
-7. Enter **Administrator** in the **Username** field and **{{tz_environment.adminPW}}** in the Password field.
-
-Note: the password contains two zero's and no capital Os.
-
-![](_attachments/MsRD-IDPassword.png)
-
-8. Click the **Continue** button.
-
-9. Click **Continue** if prompted about a certificate that could not be verified.
-
-![](_attachments/MsRD-Cert.png)
 
 <!-- 1. Open a browser window/tab using the URL found in the IBM Technology Zone email with the subject line "Your environment is ready".
 

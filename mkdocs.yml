@@ -80,6 +80,7 @@ extra:
     url: "https://ibm.github.io/SalesEnablement-ELMhealthcare-L3/"
   tz_environment:
     name: "ELM for Medical Demo Crate"
+    reservationName: "IBM Cloud ELM DET R3"
     environmentURL: "https://techzone.ibm.com/collection/elm-for-medical-demo-crate-hqe18dt4c"
     reservationURL: "https://techzone.ibm.com/my/reservations"
     windowsServerAdmin: "Administrator"
