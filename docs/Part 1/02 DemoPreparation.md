@@ -1,9 +1,5 @@
 The following steps must be performed before delivering the demonstration. These steps should be performed prior to starting an actual client demonstration, as the software services used take a few minutes to start and enter a ready state.
 
-## Access the ELM virtual server in IBM Technology Zone
-
-
-
 <!-- 1. Open a browser window/tab using the URL found in the IBM Technology Zone email with the subject line "Your environment is ready".
 
 ![](_attachments/TZURL.png)
@@ -29,18 +25,18 @@ Wait until the VM changes from **Busy** to **Running** before proceeding.
 
 
 
-10. Click the **Chrome** browser icon ![](_attachments/ChromeIcon.png) on the taskbar at bottom of screen.
+1. Click the **Chrome** browser icon ![](_attachments/ChromeIcon.png) on the taskbar at bottom of screen.
 
 ![](_attachments/WindowsTaskBar.png)
 
-11. Click the Chrome bookmark **Project Dashboards** and select the **Infusion Pump** bookmark.
+2. Click the Chrome bookmark **Project Dashboards** and select the **Infusion Pump** bookmark.
 
 ![](_attachments/ChromeBookmark.png)
 
 <!-- !!! important
     All user names and passwords have been cached in the Chrome browser. This demonstration uses the **susan** user ID. If the password is not auto populated, use **susan** as the password. -->
 
-12. In the **Log in** dialog, enter **susan** for the User ID (all lower case) and **susan** for the Password.
+3. In the **Log in** dialog, enter **susan** for the User ID (all lower case) and **susan** for the Password.
 
 <!-- ![](_attachments/SelectUser.png) -->
 ![](_attachments/SusanLogin.png)
@@ -48,7 +44,7 @@ Wait until the VM changes from **Busy** to **Running** before proceeding.
 ??? error "Popup warning"
     In some instances the Chrome browser may issue a warning that a pop window was blocked. If this occurs, simply click the **Login** link to allow the popup.
 
-1.  Click the **Log In** button.
+4.  Click the **Log In** button.
 
 The **Infusion Pump** demonstration dashboard is built using many different **widgets** as seen in the image below. When first loaded, some of the widgets may return an error (e.g. Error 400). This is expected and the next steps should fix the problems. These issues are believed to be caused by some artifact type models not being updated with some applications when the server is restarted. There is a periodic renewal every 12 hours, but who wants to wait that long. The following sections should resolve the issues. Perform only the tasks required for widgets that are not loading properly.
 
@@ -66,7 +62,7 @@ If a second error is shown, follow the next set of instructions:
 
 ![](_attachments/WidgetErrors-SysReq-2ndError.png)
 
-3. Click the **rs setup** bookmark in the **Admin** bookmarks folder.
+2. Click the **rs setup** bookmark in the **Admin** bookmarks folder.
 
 ![](_attachments/WidgetErrors-SysReq-Bookmarks.png)
 
@@ -74,11 +70,11 @@ If a second error is shown, follow the next set of instructions:
 
 ![](_attachments/WidgetErrors-SysReq-DS-tiles.png)
 
-5. Click the **Lifecycle Query Engine** link.
+4. Click the **Lifecycle Query Engine** link.
 
 ![](_attachments/WidgetErrors-SysReq-DS-LifecycleQueryLink.png)
 
-6. Click the **Refresh** button.
+5. Click the **Refresh** button.
 
 ![](_attachments/WidgetErrors-SysReq-DS-LifecycleQueryLink-Refresh.png)
 
@@ -86,7 +82,7 @@ The refresh will take a few minutes to complete. Wait until the **Successfully u
 
 ![](_attachments/WidgetErrors-SysReq-DS-LifecycleQueryLink-RefreshComplete.png)
 
-7. Return to the **Infusion Pump** dashboard by clicking the **Infusion Pump** bookmark under the **Project Dashboards** bookmark folder.
+6. Return to the **Infusion Pump** dashboard by clicking the **Infusion Pump** bookmark under the **Project Dashboards** bookmark folder.
 
 ![](_attachments/WidgetErrors-InfusionPumpBookmark.png)
 
