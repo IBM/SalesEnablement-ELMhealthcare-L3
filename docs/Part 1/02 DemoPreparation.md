@@ -45,16 +45,14 @@ Wait until the VM changes from **Busy** to **Running** before proceeding.
 <!-- ![](_attachments/SelectUser.png) -->
 ![](_attachments/SusanLogin.png)
 
-??? error Pop warning
-    In some instances the Chrome browser may issue a warning that a pop window was blocked. If this occurs, simply click the the **Login** link to allow the popup.
+??? error "Popup warning"
+    In some instances the Chrome browser may issue a warning that a pop window was blocked. If this occurs, simply click the **Login** link to allow the popup.
 
-    ![](_attachments/ChromePopUpBlocker.png)
-
-13. Click the **Log In** button.
+1.  Click the **Log In** button.
 
 The **Infusion Pump** demonstration dashboard is built using many different **widgets** as seen in the image below. When first loaded, some of the widgets may return an error (e.g. Error 400). This is expected and the next steps should fix the problems. These issues are believed to be caused by some artifact type models not being updated with some applications when the server is restarted. There is a periodic renewal every 12 hours, but who wants to wait that long. The following sections should resolve the issues. Perform only the tasks required for widgets that are not loading properly.
 
-## Error with **Infusion pump Systems REquirements to Test...** widget on **General** tab
+## Error with **Infusion pump Systems Requirements to Test...** widget on **General** tab
 
 If the **Infusion pump Systems Requirements to Test...** widget is showing an error, perform the following steps.
 

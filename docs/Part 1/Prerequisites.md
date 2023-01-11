@@ -114,11 +114,11 @@ Click the **Get** button.
 
 5. Enter **Administrator** in the **Username** field and **{{tz_environment.adminPW}}** in the Password field and click **Save**.
 
-![](_attachments/image07B-enetering-credentials.png)
+![](_attachments/image07B-entering-credentials.png)
 
 6. Click **Save** on the **Add a PC** screen.
 
-![](_attachments/image07C-name-and-account-added.png)
+![](_attachments/image07C-PC-name-and-account-added.png)
 
 7. Click the PC icon for the connection just created.
 
