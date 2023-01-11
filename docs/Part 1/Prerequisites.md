@@ -106,27 +106,27 @@ Click the **Get** button.
 
 3. Click the **+ Add** button at top right and then click **PCs**.
 
-![](_attachments/images06-add-pc-or-workspace.png)
+![](_attachments/image06-add-pc-or-workspace.png)
 
 4. Paste the **host:port** information from step 1 into the **PC name:** field and then press the **+** icon above the **User account** field.
 
-![](_attachments/images07A-entered-pc-name.png)
+![](_attachments/image07A-entered-pc-name.png)
 
 5. Enter **Administrator** in the **Username** field and **{{tz_environment.adminPW}}** in the Password field and click **Save**.
 
-![](_attachments/images07B-enetering-credentials.png)
+![](_attachments/image07B-enetering-credentials.png)
 
 6. Click **Save** on the **Add a PC** screen.
 
-![](_attachments/images07C-name-and-account-added.png)
+![](_attachments/image07C-name-and-account-added.png)
 
 7. Click the PC icon for the connection just created.
 
-![](_attachments/images08-remote-desktop-tile.png)
+![](_attachments/image08-remote-desktop-tile.png)
 
 8. Double click the **PC name** item in the table.
 
-![](_attachments/MsRD-PCList.png)
+![](_attachments/image08-remote-desktop-tile.png)
 
 9. If not already filled in, enter **Administrator** in the **Username** field and **{{tz_environment.adminPW}}** in the Password field.
 
