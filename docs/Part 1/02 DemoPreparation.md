@@ -1,4 +1,4 @@
-The following steps must be performed before delivering the demonstration. These steps should be performed prior to starting an actual client demonstration, as the software services used take a few minutes to start and enter a ready state.
+Using the remote desktop connection to the VMware image created in the [**Prerequisites**](Prerequisites.md) chapter complete the following steps. 
 
 <!-- 1. Open a browser window/tab using the URL found in the IBM Technology Zone email with the subject line "Your environment is ready".
 
@@ -23,8 +23,6 @@ Wait until the VM changes from **Busy** to **Running** before proceeding.
 
 ![](_attachments/AdminLogin.png) -->
 
-
-
 1. Click the **Chrome** browser icon ![](_attachments/ChromeIcon.png) on the taskbar at bottom of screen.
 
 ![](_attachments/WindowsTaskBar.png)
@@ -42,7 +40,7 @@ Wait until the VM changes from **Busy** to **Running** before proceeding.
 ![](_attachments/SusanLogin.png)
 
 ??? error "Popup warning"
-    In some instances the Chrome browser may issue a warning that a pop window was blocked. If this occurs, simply click the **Login** link to allow the popup.
+    In some instances the Chrome browser may issue a warning that a popup window was blocked. If this occurs, simply click the **Login** link to allow the popup.
 
 4.  Click the **Log In** button.
 
@@ -152,7 +150,7 @@ Note, if the widget does not exist, skip this step and the next step.
 
 ![](_attachments/CompleteDashboard.png) -->
 
-At this point the **Infusion Pump** dashboard should be fully loaded with out errors. If not, wait a minute and click the browser refresh icon ![](_attachments/ChromeRefresh.png). Repeat if necessary. If individual widgets on other tabs do not load or show an error, try the same steps as performed on the **Problem Tracker** widget. In testing, the others ones that typically need to be refreshed are the **FMEA** widget on the **FMEA** tab and all the widgets on the **Design Validation** tab (clicking the refresh button at the top right multiple times will typically get the widgets to complete the loading process).
+At this point the **Infusion Pump** dashboard should be fully loaded with out errors. If not, wait a minute and click the browser refresh icon ![](_attachments/ChromeRefresh.png). Repeat if necessary. If individual widgets on other tabs do not load or show an error, try the same steps as performed on the **Problem Tracker** widget. In testing, the other ones that typically need to be refreshed are the **FMEA** widget on the **FMEA** tab and all the widgets on the **Design Validation** tab (clicking the refresh button at the top right multiple times will typically get the widgets to complete the loading process).
 
 <!-- To fix the broken widgets, slowly click through each of the **Infusion Pump Requirements Project Dashboard's** tabs. If after returning to the **General** tab the widget at far right is still reporting an error, try clicking the browser's refresh/reload button. Repeat this process a couple of times. The errors should resolve and data will appear in those widgets.
 
