@@ -103,7 +103,7 @@ A parent review work item cannot be closed until all children have been approved
 
 ![](_attachments/SwitchDialog3.png)
 
-??? tip Trouble entering **\*** using browser-based remote desktop?
+??? tip "Trouble entering **\*** using browser-based remote desktop?"
     In some cases, attempting to enter the **\*** in the browser-based remote desktop results in different characters being entered. To work around the issue, click the Windows search icon ![](_attachments/WindowsSearchIcon.png) at the bottom of the screen and enter **virtual keyboard**.  Use the virtual keyboard to enter the **\*** character in the **Baselines** search field.
 
 25. Click **Infusion Pump Base Requirements Approved** in the list of **All configurations**.
