@@ -110,7 +110,9 @@ Click the **Get** button.
 
 ![](_attachments/image07A-entered-pc-name.png)
 
-5. Enter **Administrator** in the **Username** field and **{{tz_environment.adminPW}}** in the Password field and click **Save**.
+5. Enter **Administrator** in the **Username** field and **{{tz_environment.adminPW}}** in the **Password** field and click **Save**.
+
+Note: the password contains two zero's and no capital Os.
 
 ![](_attachments/image07B-entering-credentials.png)
 
@@ -118,23 +120,19 @@ Click the **Get** button.
 
 ![](_attachments/image07C-PC-name-and-account-added.png)
 
-7. Click the PC icon for the connection just created.
+7. Click the **computer icon** for the connection just created.
 
 ![](_attachments/image08-remote-desktop-tile.png)
 
-8. Double click the **PC name** item in the table.
-
-![](_attachments/image08-remote-desktop-tile.png)
-
-9. If not already filled in, enter **Administrator** in the **Username** field and **{{tz_environment.adminPW}}** in the Password field.
+8. If not already filled in, enter **Administrator** in the **Username** field and **{{tz_environment.adminPW}}** in the Password field.
 
 Note: the password contains two zero's and no capital Os.
 
 ![](_attachments/image09-credentials-entered.png)
 
-10. Click the **Connect** button.
+9. Click the **Connect** button.
 
-11. Check the **Don't ask about this certificate again** checkbox and then click **Connect anyway** on the **Accept certificate and connect** dialog.
+10. Check the **Don't ask about this certificate again** checkbox and then click **Connect anyway** on the **Accept certificate and connect** dialog.
 
 ![](_attachments/image11-accept-certificate-with-dont-ask-checked.png)
 
