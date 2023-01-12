@@ -45,9 +45,13 @@ Here, **traceability** is seen in the **Satisfied By** column. Rows with data in
 
 Notice the additional details about the requirement that are visible by simply hovering over the item in the table.
 
-9. Click the first ![](_attachments/questionIcon.png) icon in the **Satisfied By** columns.
+9. Click the first **question icon** ![](_attachments/questionIcon.png) icon in the **Satisfied By** columns.
 
 ![](_attachments/Artifacts-questionIcon.png)
+
+??? warning "Don't see the question icon"
+    If the **question icon** doesn't appear, try clicking the refresh button for the widget at the top right.
+    ![](_attachments/Artificats-questionIconRefresh.png) 
 
 Notice the options available to set the **link validity** for the requirement.
 

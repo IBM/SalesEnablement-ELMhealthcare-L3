@@ -1,4 +1,4 @@
-The ELM environment utilized in this demonstration guide was recently ported from Skytap in IBM Technology Zone (ITZ) to a VMware image running in ITZ. When accessing the running VM using the web-based remote desktop, the screen resolution appears very small (at least on when run on browsers on MacOS). While you can complete the demonstration guide using the web-based remote desktop the small resolution may make it difficult and/or frustrating.  
+The ELM environment utilized in this demonstration guide was recently ported from Skytap in IBM Technology Zone (ITZ) to a VMware image (VM) running in ITZ. 
 
 There are 3 recommended paths to access the VMware image. Choose one and follow the steps below to connect to the VMware image.
 
@@ -9,6 +9,8 @@ There are 3 recommended paths to access the VMware image. Choose one and follow 
 Follow one of the sections below to make the initial connection to the VMware image.
 
 ## Browser-based remote desktop client
+
+When first accessing the running VM using the web-based remote desktop, the screen resolution appears very small. While you can complete the demonstration guide using the web-based remote desktop the small resolution may make it difficult and/or frustrating. Instructions are included below to change the resolution.
 
 1. Using the ITZ reservation details page under <a href="https://techzone.ibm.com/my/reservations" target="_blank">My Reservations on ITZ</a>, click the **VM Remote Console** button at the bottom of the **{{tz_environment.reservationName}}** details page.
 
@@ -22,9 +24,9 @@ Follow one of the sections below to make the initial connection to the VMware im
 
 ![](_attachments/browserRD-SettingsMenu.png) 
 
-4. On the **Display** settings page specify a resolution that works best for the user. 
+1. On the **Display** settings page specify a resolution that looks best. 
 
-Try 1600 x1200. This may take a few tries to find one that works best for each users monitor.
+Try 1600 x1200. This may take a few tries to find one that works best for each user's monitor.
 
 ![](_attachments/browserRD-DisplaySettings.png) 
 

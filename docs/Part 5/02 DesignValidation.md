@@ -33,9 +33,9 @@ Notice this **test case** is part of a **Test Plan** and that it validates a req
 
 Engineering Test Management (ETM) provides a collaborative hub for systems and software quality across virtually any platform and type of testing. Teams can collaborate and share information easily and seamlessly. Here for example, a tester can see the requirement they are testing without the need to open the requirements tool or refer to a spreadsheet. Test Plans, Test Cases, Test Scripts are all traced to developments, requirements, and designs really help when you’re trying to prove compliance to industry standards.
 
-8. Click the **Infusion Pump Testing** dashboard under **Project Dashboards**.
+8. Click the stacked menu icon ![](_attachments/StackedMenuIcon.png) and then click the **Infusion Pump Testing** option.
 
-![](_attachments/PD-IPTestingDB.png)
+![](_attachments/DashboardMenu.png)
 
 9. Explore each of the **dashboard tabs** to show the test-specific data.
 
@@ -142,8 +142,7 @@ Manual tests may be performed in the lab using the web browser, but may also be 
 ![](_attachments/PD-STP-failed-tc-1-manual-runIcon.png)
 
 ??? info "Birds-eye view"
-
-![](_attachments/PD-STP-failed-tc-1-manual-runIcon-BEV.png)
+    ![](_attachments/PD-STP-failed-tc-1-manual-runIcon-BEV.png)
 
 34. Click **Test Case Execution Records** in the sidebar.
 

@@ -41,6 +41,7 @@ Wait until the VM changes from **Busy** to **Running** before proceeding.
 
 ??? error "Popup warning"
     In some instances the Chrome browser may issue a warning that a popup window was blocked. If this occurs, simply click the **Login** link to allow the popup.
+    ![](_attachments/browserRD-popupBlocker.png)
 
 4.  Click the **Log In** button.
 

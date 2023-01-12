@@ -35,4 +35,4 @@ The video below provides a sample introduction to the demonstration.
 
     After that we’ll move to Design Output where we’ll see Design Verification to prove coverage of the requirements by the design and Design Validation where we’ll show test coverage, test execution and defect tracking.
 
-Before proceeding to the actual demonstration, a few preparation steps must be complete first to configure the demonstration environment in IBM Technology Zone.
+Before proceeding to the actual demonstration, a few preparation steps must be completed to configure the demonstration environment in IBM Technology Zone. Proceed to the **Prerequisites** chapter.
